@@ -1,0 +1,75 @@
+baseurl: 'http://blog.fenneclab.com/'
+languageCode: ja-jp
+theme: hugo-future-imperfect
+preserveTaxonomyNames: true
+title: FennecLab Blog
+paginate: 3
+googleAnalytics: UA-62517597-2
+params:
+  description: Let's Get Freaky With Technology
+  navbarTitle: FennecLab Blog
+  socialAppearAtTop: true
+  socialAppearAtBottom: true
+  viewMorePostLink: /blog/
+  categoriesByCount: true
+  includeReadingTime: true
+  loadFavicon: true
+  faviconVersion: '-1.0'
+  customCSS:
+    - default
+    - /css/custom.css
+  # customJS : ['default', '/path/to/file']
+  intro:
+    header: FennecLab Blog
+    paragraph: Let's Get Freaky With Technology
+    about: Webプロダクトチーム『FennecLab』のブログです。使った技術やオススメのサービスの紹介、プロダクト公開情報など、日々のアウトプットをアーカイブしてきます。
+    pic:
+      src: /img/main/logo.png
+      circle: false
+      imperfect: false
+      width: 80px
+      alt: FennecLab Blog
+  postAmount:
+    sidebar: 3
+menu:
+  main:
+    - name: Blog
+      url: /
+      identifier: fa fa-newspaper-o
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 2
+    - name: About
+      url: /about
+      weight: 3
+
+social:
+  github: fenneclab
+  # bitbucket    : ''
+  # jsfiddle     : ''
+  # codepen      : ''
+  # foursquare   : ''
+  # dribbble     : ''
+  # deviantart   : ''
+  # behance      : ''
+  # flickr       : ''
+  # instagram    : ''
+  # youtube      : ''
+  # vimeo        : ''
+  # vine         : ''
+  # medium       : ''
+  # wordpress    : ''
+  # tumblr       : ''
+  # xing         : ''
+  # linkedin     : ''
+  # slideshare   : ''
+  # stackoverflow: ''
+  # reddit       : ''
+  # pinterest    : ''
+  # googleplus   : ''
+  facebook: fenneclab
+  # facebook_admin: ''
+  # twitter_domain: ''
+  twitter: fennec_lab
+  email: info@fenneclab.com

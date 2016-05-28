@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>FennecLab Blog</title>
+    <meta name="description" content="Let&#x27;s Get Freaky With Technology" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css?v=aa32e49805" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="http://blog.fenneclab.com/" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="FennecLab Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="FennecLab Blog" />
+    <meta property="og:description" content="Let&#x27;s Get Freaky With Technology" />
+    <meta property="og:url" content="http://blog.fenneclab.com/" />
+    <meta property="og:image" content="http://blog.fenneclab.com/content/images/2015/01/fenneclab_winter.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FennecLab Blog" />
+    <meta name="twitter:description" content="Let&#x27;s Get Freaky With Technology" />
+    <meta name="twitter:url" content="http://blog.fenneclab.com/" />
+    <meta name="twitter:image:src" content="http://blog.fenneclab.com/content/images/2015/01/fenneclab_winter.png" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": "FennecLab Blog",
+    "url": "http://blog.fenneclab.com/",
+    "image": "http://blog.fenneclab.com/content/images/2015/01/fenneclab_winter.png",
+    "description": "Let&#x27;s Get Freaky With Technology"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.8" />
+    <link rel="alternate" type="application/rss+xml" title="FennecLab Blog" href="http://blog.fenneclab.com/rss/" />
+</head>
+<body class="home-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home nav-current" role="presentation"><a href="http://blog.fenneclab.com/">Home</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="http://blog.fenneclab.com/rss/">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+<header class="main-header " style="background-image: url(/content/images/2015/01/fenneclab_winter.png)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">FennecLab Blog</h1>
+            <h2 class="page-description">Let&#x27;s Get Freaky With Technology</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+<main id="content" class="content" role="main">
+
+    <div class="extra-pagination inner">
+    <nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+
+</div>
+
+<article class="post tag-graphapi tag-opengraph tag-facebook tag-v2-2">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/posting-facebook-feed-patterns/">FacebookGraphAPIを使った投稿パターンと見え方まとめ</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>satoshun00です。 Facebook Graph API v2.2を使うと、Facebookユーザーフィードへコンテンツの投稿を行うことが出来ます。 Facebookにはフィード投稿の方法がいくつかあり、ユーザーへのフィード上の見え方がそれぞれ異なります。 主な投稿パターンを以下3つに整理しました。 #-1. フィードポスト パターン #-2. Custom Open Graph パターン #-3. Common Open Graph パターン ※この記事では実装・SDKの利用には触れていません #-1. <a class="read-more" href="/posting-facebook-feed-patterns/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2014/10/k5sQHFiV.jpeg" alt="satoshun00" nopin="nopin" />
+        <a href="/author/shun-sato/">satoshun00</a>
+         on <a href="/tag/graphapi/">GraphAPI</a>, <a href="/tag/opengraph/">OpenGraph</a>, <a href="/tag/facebook/">Facebook</a>, <a href="/tag/v2-2/">v2.2</a>
+        <time class="post-date" datetime="2015-03-22">22 March 2015</time>
+    </footer>
+</article>
+<article class="post tag-niice tag-websabisu tag-hua-xiang-jian-suo">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/niice-a-search-engine-with-taste/">デザイナーのためのクリエイティブな画像検索サイト「Niice」</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>デザインのインスピレーションが欲しくなった時に、ちょくちょく使ってる「Niice」が色々アップデートしていたので紹介。 Niice -A search engine with taste.- キャッチコピーの通り、クリエイティブな画像に特化した検索エンジンで、BehanceやDribbbleを初めとしたデザイナーさん御用達のクリエイティブなWebサイトの画像だけを一括検索できる優れもの。 実際のイメージ検索結果 とりあえず「Japan」で検索してみる。 もちろんアプリのUIも検索できる。 ロゴもかっこいいのが出てくる。 カラーコード検索もできちゃう(実験中らしい)。 うん。確かにグッドテイスト感ある。 ちなみにGif画像も検索結果画面でさくさく動くので見てるだけでも飽きない。 自分だけの画像ボードが作れる新機能「 <a class="read-more" href="/niice-a-search-engine-with-taste/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2014/10/naruse-icon2.jpg" alt="NARUSE" nopin="nopin" />
+        <a href="/author/naruse/">NARUSE</a>
+         on <a href="/tag/niice/">Niice</a>, <a href="/tag/websabisu/">Webサービス</a>, <a href="/tag/hua-xiang-jian-suo/">画像検索</a>
+        <time class="post-date" datetime="2014-11-28">28 November 2014</time>
+    </footer>
+</article>
+<article class="post tag-hubot tag-yeoman tag-slack tag-docker">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/docker-yeoman-hubot-slack/">Docker + Yeoman + Hubot + Slack で簡単bot作成</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>satoshun00です。  ご存知、Hubotを、ちょっとモダンなやり方で作ってみたのでご紹介します。 実際にFennecLabチームで使用しているfennecbotはこの手順で作りました。 Githubにリポジトリを公開しています。 https://github.com/fenneclab/fennecbot pros コピペで作れます Dockerでいれるので環境が汚れません cons SlackとHubotがURLで連携するため、リモートの置き場所が必要です 今回はさくらVPSで運用 今回はMac OS X(ローカル)とCentOS6(さくらVPS, 実運用)に入れました。 <a class="read-more" href="/docker-yeoman-hubot-slack/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/content/images/2014/10/k5sQHFiV.jpeg" alt="satoshun00" nopin="nopin" />
+        <a href="/author/shun-sato/">satoshun00</a>
+         on <a href="/tag/hubot/">Hubot</a>, <a href="/tag/yeoman/">Yeoman</a>, <a href="/tag/slack/">Slack</a>, <a href="/tag/docker/">Docker</a>
+        <time class="post-date" datetime="2014-11-28">28 November 2014</time>
+    </footer>
+</article>
+
+<nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+
+
+</main>
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://blog.fenneclab.com">FennecLab Blog</a> &copy; 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- You can safely delete this line if your theme does not require jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js?v=aa32e49805"></script>
+    <script type="text/javascript" src="/assets/js/index.js?v=aa32e49805"></script>
+
+<img src="/view.gif?page=/" alt="" style="display:none" hidden />
+</body>
+</html>

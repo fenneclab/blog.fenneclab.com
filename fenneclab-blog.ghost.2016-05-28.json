@@ -1,0 +1,1813 @@
+{
+  "db": [
+    {
+      "meta": {
+        "exported_on": 1464450893133,
+        "version": "005"
+      },
+      "data": {
+        "app_fields": [],
+        "app_settings": [],
+        "apps": [],
+        "permissions": [
+          {
+            "id": 1,
+            "uuid": "694f5c3e-e202-49ab-bee5-e04cfa7aae16",
+            "name": "Export database",
+            "object_type": "db",
+            "action_type": "exportContent",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "c94452c3-2165-4800-9b1f-b83a65f7f8b4",
+            "name": "Import database",
+            "object_type": "db",
+            "action_type": "importContent",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "3564c23c-ad99-4fae-bacf-30166a1c00d4",
+            "name": "Delete all content",
+            "object_type": "db",
+            "action_type": "deleteAllContent",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "a8a6a1f0-f491-41c5-bf81-aaa49d6ffbe2",
+            "name": "Send mail",
+            "object_type": "mail",
+            "action_type": "send",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 5,
+            "uuid": "fa3360bb-01ce-49e8-be7c-4947c6c9b1c8",
+            "name": "Browse notifications",
+            "object_type": "notification",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 6,
+            "uuid": "be9dc0ab-24fc-4077-a7a2-5719e8e9402c",
+            "name": "Add notifications",
+            "object_type": "notification",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 7,
+            "uuid": "3435e79f-7803-4f54-8ddf-152ca76cc223",
+            "name": "Delete notifications",
+            "object_type": "notification",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 8,
+            "uuid": "44caf7d5-c792-408e-b3d6-df3bf0beb65d",
+            "name": "Browse posts",
+            "object_type": "post",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 9,
+            "uuid": "80fd24e1-6fe9-45c7-b513-d12e4235569a",
+            "name": "Read posts",
+            "object_type": "post",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 10,
+            "uuid": "5326d230-78b7-4f5b-928e-22fcdca76188",
+            "name": "Edit posts",
+            "object_type": "post",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 11,
+            "uuid": "b33144c4-4947-4f66-a832-d3f6de1ae69d",
+            "name": "Add posts",
+            "object_type": "post",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 12,
+            "uuid": "9cd2988e-3c1e-40f5-b653-29107ccf1c4d",
+            "name": "Delete posts",
+            "object_type": "post",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 13,
+            "uuid": "f1994de1-210b-4493-8346-92d6191d33df",
+            "name": "Browse settings",
+            "object_type": "setting",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 14,
+            "uuid": "55af89e4-4778-4678-9309-b0a210d8bf5d",
+            "name": "Read settings",
+            "object_type": "setting",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 15,
+            "uuid": "929ff79a-4d3f-4c5f-8f41-502dae86e09a",
+            "name": "Edit settings",
+            "object_type": "setting",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 16,
+            "uuid": "444fc771-a945-415b-9913-55948ad9ee9b",
+            "name": "Generate slugs",
+            "object_type": "slug",
+            "action_type": "generate",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 17,
+            "uuid": "ec7e8d51-3f02-4050-a7fd-4fbea52427fc",
+            "name": "Browse tags",
+            "object_type": "tag",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 18,
+            "uuid": "70d79b48-c4cb-4f1f-9b0b-ba3d10ba2b68",
+            "name": "Read tags",
+            "object_type": "tag",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 19,
+            "uuid": "0f55361f-ef00-43b5-81f9-51a3bde855f5",
+            "name": "Edit tags",
+            "object_type": "tag",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 20,
+            "uuid": "b100c414-39b6-467d-8bb8-4b522aecea03",
+            "name": "Add tags",
+            "object_type": "tag",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 21,
+            "uuid": "b18c2115-eb41-452b-a4f0-bc7521417b82",
+            "name": "Delete tags",
+            "object_type": "tag",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 22,
+            "uuid": "a14cfa2f-b5e6-4d1f-92d4-6f31b956f8e1",
+            "name": "Browse themes",
+            "object_type": "theme",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 23,
+            "uuid": "a0b17c5b-85dc-4985-aeaf-9d2deb989702",
+            "name": "Edit themes",
+            "object_type": "theme",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 24,
+            "uuid": "d3f58aa7-e8e9-4a63-a1af-c0c6d1093969",
+            "name": "Browse users",
+            "object_type": "user",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 25,
+            "uuid": "ec32d6ac-d4f8-4a0e-80d5-4693cc85ca73",
+            "name": "Read users",
+            "object_type": "user",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 26,
+            "uuid": "698e1a49-ef24-44c7-b68a-8b422c252650",
+            "name": "Edit users",
+            "object_type": "user",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 27,
+            "uuid": "32ac6259-a5ff-4b38-b4e2-7ce303c1cad8",
+            "name": "Add users",
+            "object_type": "user",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 28,
+            "uuid": "5607da75-097e-49a7-b068-2106dffefeaf",
+            "name": "Delete users",
+            "object_type": "user",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 29,
+            "uuid": "b95dabdf-425d-4f03-b83d-b215bff8b03a",
+            "name": "Assign a role",
+            "object_type": "role",
+            "action_type": "assign",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 30,
+            "uuid": "0f66a513-a89d-4815-8fd4-88e383c7794d",
+            "name": "Browse roles",
+            "object_type": "role",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 31,
+            "uuid": "464409c6-f12c-4499-833a-49c45f05442d",
+            "name": "Browse clients",
+            "object_type": "client",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 32,
+            "uuid": "3e99e18b-1c93-44f2-b03d-33b8377dccb8",
+            "name": "Read clients",
+            "object_type": "client",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 33,
+            "uuid": "acce6729-be84-4498-9759-4c2b118cc225",
+            "name": "Edit clients",
+            "object_type": "client",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 34,
+            "uuid": "adeb114c-bd11-4ba6-8059-42608819fccc",
+            "name": "Add clients",
+            "object_type": "client",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 35,
+            "uuid": "5c79f318-b673-48f7-ba4c-7690511d5a96",
+            "name": "Delete clients",
+            "object_type": "client",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 36,
+            "uuid": "bdb917ad-e918-411e-8aa1-7c42058d6791",
+            "name": "Browse subscribers",
+            "object_type": "subscriber",
+            "action_type": "browse",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:27.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:27.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 37,
+            "uuid": "11114dc4-fbfe-494f-9859-332e3a9467db",
+            "name": "Read subscribers",
+            "object_type": "subscriber",
+            "action_type": "read",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:27.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:27.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 38,
+            "uuid": "97683a84-9ff0-47a5-929b-a80793008d56",
+            "name": "Edit subscribers",
+            "object_type": "subscriber",
+            "action_type": "edit",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:27.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:27.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 39,
+            "uuid": "035f7c37-a734-43f6-bb11-0af60ecfea0f",
+            "name": "Add subscribers",
+            "object_type": "subscriber",
+            "action_type": "add",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:27.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:27.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 40,
+            "uuid": "3d34c046-2614-493f-b05d-2e13f56ed19f",
+            "name": "Delete subscribers",
+            "object_type": "subscriber",
+            "action_type": "destroy",
+            "object_id": null,
+            "created_at": "2016-05-18T13:26:27.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:27.000Z",
+            "updated_by": 1
+          }
+        ],
+        "permissions_apps": [],
+        "permissions_roles": [
+          {
+            "id": 1,
+            "role_id": 1,
+            "permission_id": 1
+          },
+          {
+            "id": 2,
+            "role_id": 1,
+            "permission_id": 2
+          },
+          {
+            "id": 3,
+            "role_id": 1,
+            "permission_id": 3
+          },
+          {
+            "id": 4,
+            "role_id": 1,
+            "permission_id": 4
+          },
+          {
+            "id": 5,
+            "role_id": 1,
+            "permission_id": 5
+          },
+          {
+            "id": 6,
+            "role_id": 1,
+            "permission_id": 6
+          },
+          {
+            "id": 7,
+            "role_id": 1,
+            "permission_id": 7
+          },
+          {
+            "id": 8,
+            "role_id": 1,
+            "permission_id": 8
+          },
+          {
+            "id": 9,
+            "role_id": 1,
+            "permission_id": 9
+          },
+          {
+            "id": 10,
+            "role_id": 1,
+            "permission_id": 10
+          },
+          {
+            "id": 11,
+            "role_id": 1,
+            "permission_id": 11
+          },
+          {
+            "id": 12,
+            "role_id": 1,
+            "permission_id": 12
+          },
+          {
+            "id": 13,
+            "role_id": 1,
+            "permission_id": 13
+          },
+          {
+            "id": 14,
+            "role_id": 1,
+            "permission_id": 14
+          },
+          {
+            "id": 15,
+            "role_id": 1,
+            "permission_id": 15
+          },
+          {
+            "id": 16,
+            "role_id": 1,
+            "permission_id": 16
+          },
+          {
+            "id": 17,
+            "role_id": 1,
+            "permission_id": 17
+          },
+          {
+            "id": 18,
+            "role_id": 1,
+            "permission_id": 18
+          },
+          {
+            "id": 19,
+            "role_id": 1,
+            "permission_id": 19
+          },
+          {
+            "id": 20,
+            "role_id": 1,
+            "permission_id": 20
+          },
+          {
+            "id": 21,
+            "role_id": 1,
+            "permission_id": 21
+          },
+          {
+            "id": 22,
+            "role_id": 1,
+            "permission_id": 22
+          },
+          {
+            "id": 23,
+            "role_id": 1,
+            "permission_id": 23
+          },
+          {
+            "id": 24,
+            "role_id": 1,
+            "permission_id": 24
+          },
+          {
+            "id": 25,
+            "role_id": 1,
+            "permission_id": 25
+          },
+          {
+            "id": 26,
+            "role_id": 1,
+            "permission_id": 26
+          },
+          {
+            "id": 27,
+            "role_id": 1,
+            "permission_id": 27
+          },
+          {
+            "id": 28,
+            "role_id": 1,
+            "permission_id": 28
+          },
+          {
+            "id": 29,
+            "role_id": 1,
+            "permission_id": 29
+          },
+          {
+            "id": 30,
+            "role_id": 1,
+            "permission_id": 30
+          },
+          {
+            "id": 31,
+            "role_id": 2,
+            "permission_id": 8
+          },
+          {
+            "id": 32,
+            "role_id": 2,
+            "permission_id": 9
+          },
+          {
+            "id": 33,
+            "role_id": 2,
+            "permission_id": 10
+          },
+          {
+            "id": 34,
+            "role_id": 2,
+            "permission_id": 11
+          },
+          {
+            "id": 35,
+            "role_id": 2,
+            "permission_id": 12
+          },
+          {
+            "id": 36,
+            "role_id": 2,
+            "permission_id": 13
+          },
+          {
+            "id": 37,
+            "role_id": 2,
+            "permission_id": 14
+          },
+          {
+            "id": 38,
+            "role_id": 2,
+            "permission_id": 16
+          },
+          {
+            "id": 39,
+            "role_id": 2,
+            "permission_id": 17
+          },
+          {
+            "id": 40,
+            "role_id": 2,
+            "permission_id": 18
+          },
+          {
+            "id": 41,
+            "role_id": 2,
+            "permission_id": 19
+          },
+          {
+            "id": 42,
+            "role_id": 2,
+            "permission_id": 20
+          },
+          {
+            "id": 43,
+            "role_id": 2,
+            "permission_id": 21
+          },
+          {
+            "id": 44,
+            "role_id": 2,
+            "permission_id": 24
+          },
+          {
+            "id": 45,
+            "role_id": 2,
+            "permission_id": 25
+          },
+          {
+            "id": 46,
+            "role_id": 2,
+            "permission_id": 26
+          },
+          {
+            "id": 47,
+            "role_id": 2,
+            "permission_id": 27
+          },
+          {
+            "id": 48,
+            "role_id": 2,
+            "permission_id": 28
+          },
+          {
+            "id": 49,
+            "role_id": 2,
+            "permission_id": 29
+          },
+          {
+            "id": 50,
+            "role_id": 2,
+            "permission_id": 30
+          },
+          {
+            "id": 51,
+            "role_id": 3,
+            "permission_id": 8
+          },
+          {
+            "id": 52,
+            "role_id": 3,
+            "permission_id": 9
+          },
+          {
+            "id": 53,
+            "role_id": 3,
+            "permission_id": 11
+          },
+          {
+            "id": 54,
+            "role_id": 3,
+            "permission_id": 13
+          },
+          {
+            "id": 55,
+            "role_id": 3,
+            "permission_id": 14
+          },
+          {
+            "id": 56,
+            "role_id": 3,
+            "permission_id": 16
+          },
+          {
+            "id": 57,
+            "role_id": 3,
+            "permission_id": 17
+          },
+          {
+            "id": 58,
+            "role_id": 3,
+            "permission_id": 18
+          },
+          {
+            "id": 59,
+            "role_id": 3,
+            "permission_id": 20
+          },
+          {
+            "id": 60,
+            "role_id": 3,
+            "permission_id": 24
+          },
+          {
+            "id": 61,
+            "role_id": 3,
+            "permission_id": 25
+          },
+          {
+            "id": 62,
+            "role_id": 3,
+            "permission_id": 30
+          },
+          {
+            "id": 63,
+            "role_id": 1,
+            "permission_id": 31
+          },
+          {
+            "id": 64,
+            "role_id": 1,
+            "permission_id": 32
+          },
+          {
+            "id": 65,
+            "role_id": 1,
+            "permission_id": 33
+          },
+          {
+            "id": 66,
+            "role_id": 1,
+            "permission_id": 34
+          },
+          {
+            "id": 67,
+            "role_id": 1,
+            "permission_id": 35
+          },
+          {
+            "id": 68,
+            "role_id": 2,
+            "permission_id": 31
+          },
+          {
+            "id": 69,
+            "role_id": 2,
+            "permission_id": 32
+          },
+          {
+            "id": 70,
+            "role_id": 2,
+            "permission_id": 33
+          },
+          {
+            "id": 71,
+            "role_id": 2,
+            "permission_id": 34
+          },
+          {
+            "id": 72,
+            "role_id": 2,
+            "permission_id": 35
+          },
+          {
+            "id": 73,
+            "role_id": 3,
+            "permission_id": 31
+          },
+          {
+            "id": 74,
+            "role_id": 3,
+            "permission_id": 32
+          },
+          {
+            "id": 75,
+            "role_id": 3,
+            "permission_id": 33
+          },
+          {
+            "id": 76,
+            "role_id": 3,
+            "permission_id": 34
+          },
+          {
+            "id": 77,
+            "role_id": 3,
+            "permission_id": 35
+          },
+          {
+            "id": 78,
+            "role_id": 1,
+            "permission_id": 36
+          },
+          {
+            "id": 79,
+            "role_id": 1,
+            "permission_id": 37
+          },
+          {
+            "id": 80,
+            "role_id": 1,
+            "permission_id": 38
+          },
+          {
+            "id": 81,
+            "role_id": 1,
+            "permission_id": 39
+          },
+          {
+            "id": 82,
+            "role_id": 1,
+            "permission_id": 40
+          },
+          {
+            "id": 83,
+            "role_id": 2,
+            "permission_id": 39
+          },
+          {
+            "id": 84,
+            "role_id": 3,
+            "permission_id": 39
+          }
+        ],
+        "permissions_users": [],
+        "posts": [
+          {
+            "id": 8,
+            "uuid": "bf1b52aa-24b4-4013-97c5-1fc05f0c15f6",
+            "title": "iPhone 6のためのAutolayout(デザインの話も少し)",
+            "slug": "autolayout-for-iphone6",
+            "markdown": "satoshun00です。\n\niPhone6発売以降、Autolayoutをそろそろちゃんとやろうと思い、だいぶ知見も溜まってきたのでまとめます",
+            "html": "<p>satoshun00です。</p>\n\n<p>iPhone6発売以降、Autolayoutをそろそろちゃんとやろうと思い、だいぶ知見も溜まってきたのでまとめます</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 2,
+            "created_at": "2014-11-17T02:41:10.000Z",
+            "created_by": 2,
+            "updated_at": "2014-11-17T08:57:49.000Z",
+            "updated_by": 2,
+            "published_at": null,
+            "published_by": null,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 9,
+            "uuid": "c13f5ec7-8abd-47dc-9f2b-a362525b1dd9",
+            "title": "Docker + Yeoman + Hubot + Slack で簡単bot作成",
+            "slug": "docker-yeoman-hubot-slack",
+            "markdown": "satoshun00です。\nご存知、[Hubot](https://hubot.github.com/)を、ちょっとモダンなやり方で作ってみたのでご紹介します。\n\n実際にFennecLabチームで使用している`fennecbot`はこの手順で作りました。\n\nGithubにリポジトリを公開しています。\n\nhttps://github.com/fenneclab/fennecbot\n\n**pros**\n\n- コピペで作れます\n- Dockerでいれるので環境が汚れません\n\n**cons**\n\n- SlackとHubotがURLで連携するため、リモートの置き場所が必要です\n  - 今回はさくらVPSで運用\n\n今回はMac OS X(ローカル)とCentOS6(さくらVPS, 実運用)に入れました。\n\n### Installation\n##### Docker\n[Docker Documentation](https://docs.docker.com/installation/#installation)を参考にインストールします。\n\n**Mac OS X(ローカル)**\n\n```\n# インストーラーにてboot2dockerパッケージをインストール後\n> boot2docker init\n> boot2docker start\n> $(boot2docker shellinit)\n```\n\n**CentOS6(さくらVPS, 実運用)**\n```\n> sudo yum install docker-io\n```\n\n##### Yeoman\n[Yeoman](http://yeoman.io/)はnode.jsアプリケーションの雛形ジェネレータです。\n\n雛形を作るだけなのでローカルのマシンに入れるだけでよいでしょう。\n\n**Mac OS X(ローカル)**\n```\n> brew install node # nodeがインストールされていなければ…\n> npm install -g yo\n```\n\n### Hubotアプリケーションを作成\n[Hubot](https://hubot.github.com/)アプリケーションを作成します。\n\nローカルマシンにて以下のコマンドを実行します。\n\n```\n> npm install -g generator-hubot # Yeoman用、Hubotジェネレーター\n> mkdir test-hubot && cd test-hubot\n> yo hubot\n```\n\n対話モードでいろいろ訪ねられるので適当に答えます。\n\n`Bot adapter`は`slack`にして下さい。\n\n![yo hubot](/content/images/2014/11/----------2014-11-29-2-55-16-1.png)\n\nデフォルトでHubotスクリプトがいくつか入っていますね。\n\n![scripts](/content/images/2014/11/----------2014-11-29-3-07-59.png)\n\n##### HubotDockerコンテナーの作成\n\nHubotアプリケーションをDockerのコンテナーとして立ち上げます。\n\n`test-hubot`ディレクトリに以下の`Dockerfile`を作成します。\n\n```Dockerfile\nFROM node:latest\n\n# コンテナにHubotアプリケーションを持っていく\nRUN mkdir /bot && cd /bot\nADD . /bot\n\nEXPOSE 9999\n\nWORKDIR /bot\n\n# docker runした時の実行コマンド\nCMD [\"bin/hubot\", \"--adapter\", \"slack\"]\n```\n\nDockerイメージをビルドします。\n\n```\n> docker build -t test-hubot .\n```\n\nDockerコンテナーを起動します。\n\n```\n# ローカルマシンではSlackとの連携が出来ないため`CMD`をオーバーライド\n> docker run -v \"$(pwd)\":/bot \\\n    -it -p 9999:9999 \\ # インタラクティブモードでコンテナーを起動\n    test-hubot \\\n    bin/hubot # --adapterを指定せずデフォルト(Shellモード)にしておく\n```\n\n`docker run`のオプションに`-it`を指定したので、対話的にHubotが動けば成功です。(`Ctrl + C`でHubotを終了すると、コンテナーもstopします)\n\n```\nHubot> hubot ping\nHubot> PONG\n```\n\n作成した`test-hubot`をgithubに`push`しておきましょう。\n\n### Hubot - Slack連携\n\n##### Slackの設定\n\n[Slack](https://slack.com)のIntegration設定にて、`Hubot Integration`を追加し、項目を埋めます。\n\n- `Hubot URL`: リモートのURL(今回だとさくらVPSのIP) + Hubotの待ち受けポート\n  - ex) `10.0.0.3:9999`\n- `Token`: 後で使うのでどっかにコピーしておきましょう\n- `Descriptive Label`: 空欄 \n- `Customize Icon`: 愛着のわく何かにしておくといいでしょう\n\n##### Hubotをリモートで起動\n\nさくらVPSで用意した、CentOSにて作業します。\n\n```\n# 先ほどpushしたHubotリポジトリをclone\n> git clone git@github.com:your-org/test-hubot.git\n> cd test-hubot\n# 先ほどと同じ要領でDockerイメージをビルド\n> docker build -t test-hubot .\n```\n\nHubotの入ったDockerコンテナーを起動します。\n(`Dockerfile`の`CMD`で指定したデフォルトの起動コマンドで`docker run`されます)\n\n```\n> docker run -e HUBOT_SLACK_TOKEN=\"[先ほど設定したToken]\" \\ \n  -e HUBOT_SLACK_TEAM=\"[Slackのチーム名]\" \\\n  -e HUBOT_SLACK_BOTNAME=\"[botの名前]\" \\\n  -e PORT=9999 \\\n  -d -p 9999:9999 \\ # -d でdaemon起動\n  -v \"$(pwd)\":/bot \\\n  test-hubot\n```\n\nSlackにて指定したbotに呼びかけてみましょう。\n\n反応が返ってくれば成功です！\n\n![cat me](/content/images/2014/11/----------2014-11-29-4-54-11.png)\n\n### +α(& やり残したこと)\n\n-  `docker run`したHubotへの変更の反映、再起動は？\n  - 変更を`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/reference/commandline/cli/#restart)\n- 運用するリモートサーバーがない\n  - [HubotはHerokuへのデプロイも推奨しているようです](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md)\n- 「`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/reference/commandline/cli/#restart)が面倒くさい」\n  - ローカルで作成したHubotのDockerイメージを[Docker Hub](https://registry.hub.docker.com/)に`push`し、運用するためのリモートサーバーにて`docker pull`するのもイケると思います\n- 「会社のSlackだから勝手にIntegrationを追加できない」\n  - SlackはIRCサーバーとしても使えます(これも[Slackの設定次第ですが](https://slack.zendesk.com/hc/en-us/articles/201727913-Connecting-to-Slack-over-IRC-and-XMPP))\n  - Hubotの[IRCAdapter](https://github.com/nandub/hubot-irc)を利用するとよいでしょう\n- Hubotの立ち位置\n  - 個人が趣味プロではじめたHubotに、いつのまにか業務が依存しだしたら、Jenkinsとかチームが運用できる手段を真剣に考えた方がいいと思います\n  - [Githubみたいな使い方](http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)を目指すなら運用チームがいないときついと思います\n  - 私個人としては、Hubotはちょっとした業務補助ツール兼、おもちゃくらいです\n\n### 参考\n- [hubot+slackをIRCで動かす](http://qiita.com/mikesorae/items/b229a8cebe1880ca52b9)\n- [slackにHubotを導入(Heroku経由)](http://qiita.com/Katsumata_RYO/items/dc4543aa5827d4c3211c)\n- [GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013](http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)",
+            "html": "<p>satoshun00です。 <br />\nご存知、<a href=\"https://hubot.github.com/\">Hubot</a>を、ちょっとモダンなやり方で作ってみたのでご紹介します。</p>\n\n<p>実際にFennecLabチームで使用している<code>fennecbot</code>はこの手順で作りました。</p>\n\n<p>Githubにリポジトリを公開しています。</p>\n\n<p><a href=\"https://github.com/fenneclab/fennecbot\">https://github.com/fenneclab/fennecbot</a></p>\n\n<p><strong>pros</strong></p>\n\n<ul>\n<li>コピペで作れます</li>\n<li>Dockerでいれるので環境が汚れません</li>\n</ul>\n\n<p><strong>cons</strong></p>\n\n<ul>\n<li>SlackとHubotがURLで連携するため、リモートの置き場所が必要です\n<ul><li>今回はさくらVPSで運用</li></ul></li>\n</ul>\n\n<p>今回はMac OS X(ローカル)とCentOS6(さくらVPS, 実運用)に入れました。</p>\n\n<h3 id=\"installation\">Installation</h3>\n\n<h5 id=\"docker\">Docker</h5>\n\n<p><a href=\"https://docs.docker.com/installation/#installation\">Docker Documentation</a>を参考にインストールします。</p>\n\n<p><strong>Mac OS X(ローカル)</strong></p>\n\n<pre><code># インストーラーにてboot2dockerパッケージをインストール後\n&gt; boot2docker init\n&gt; boot2docker start\n&gt; $(boot2docker shellinit)\n</code></pre>\n\n<p><strong>CentOS6(さくらVPS, 実運用)</strong></p>\n\n<pre><code>&gt; sudo yum install docker-io\n</code></pre>\n\n<h5 id=\"yeoman\">Yeoman</h5>\n\n<p><a href=\"http://yeoman.io/\">Yeoman</a>はnode.jsアプリケーションの雛形ジェネレータです。</p>\n\n<p>雛形を作るだけなのでローカルのマシンに入れるだけでよいでしょう。</p>\n\n<p><strong>Mac OS X(ローカル)</strong></p>\n\n<pre><code>&gt; brew install node # nodeがインストールされていなければ…\n&gt; npm install -g yo\n</code></pre>\n\n<h3 id=\"hubot\">Hubotアプリケーションを作成</h3>\n\n<p><a href=\"https://hubot.github.com/\">Hubot</a>アプリケーションを作成します。</p>\n\n<p>ローカルマシンにて以下のコマンドを実行します。</p>\n\n<pre><code>&gt; npm install -g generator-hubot # Yeoman用、Hubotジェネレーター\n&gt; mkdir test-hubot &amp;&amp; cd test-hubot\n&gt; yo hubot\n</code></pre>\n\n<p>対話モードでいろいろ訪ねられるので適当に答えます。</p>\n\n<p><code>Bot adapter</code>は<code>slack</code>にして下さい。</p>\n\n<p><img src=\"/content/images/2014/11/----------2014-11-29-2-55-16-1.png\" alt=\"yo hubot\" /></p>\n\n<p>デフォルトでHubotスクリプトがいくつか入っていますね。</p>\n\n<p><img src=\"/content/images/2014/11/----------2014-11-29-3-07-59.png\" alt=\"scripts\" /></p>\n\n<h5 id=\"hubotdocker\">HubotDockerコンテナーの作成</h5>\n\n<p>HubotアプリケーションをDockerのコンテナーとして立ち上げます。</p>\n\n<p><code>test-hubot</code>ディレクトリに以下の<code>Dockerfile</code>を作成します。</p>\n\n<pre><code class=\"language-Dockerfile\">FROM node:latest\n\n# コンテナにHubotアプリケーションを持っていく\nRUN mkdir /bot &amp;&amp; cd /bot  \nADD . /bot\n\nEXPOSE 9999\n\nWORKDIR /bot\n\n# docker runした時の実行コマンド\nCMD [\"bin/hubot\", \"--adapter\", \"slack\"]  \n</code></pre>\n\n<p>Dockerイメージをビルドします。</p>\n\n<pre><code>&gt; docker build -t test-hubot .\n</code></pre>\n\n<p>Dockerコンテナーを起動します。</p>\n\n<pre><code># ローカルマシンではSlackとの連携が出来ないため`CMD`をオーバーライド\n&gt; docker run -v \"$(pwd)\":/bot \\\n    -it -p 9999:9999 \\ # インタラクティブモードでコンテナーを起動\n    test-hubot \\\n    bin/hubot # --adapterを指定せずデフォルト(Shellモード)にしておく\n</code></pre>\n\n<p><code>docker run</code>のオプションに<code>-it</code>を指定したので、対話的にHubotが動けば成功です。(<code>Ctrl + C</code>でHubotを終了すると、コンテナーもstopします)</p>\n\n<pre><code>Hubot&gt; hubot ping  \nHubot&gt; PONG  \n</code></pre>\n\n<p>作成した<code>test-hubot</code>をgithubに<code>push</code>しておきましょう。</p>\n\n<h3 id=\"hubotslack\">Hubot - Slack連携</h3>\n\n<h5 id=\"slack\">Slackの設定</h5>\n\n<p><a href=\"https://slack.com\">Slack</a>のIntegration設定にて、<code>Hubot Integration</code>を追加し、項目を埋めます。</p>\n\n<ul>\n<li><code>Hubot URL</code>: リモートのURL(今回だとさくらVPSのIP) + Hubotの待ち受けポート\n<ul><li>ex) <code>10.0.0.3:9999</code></li></ul></li>\n<li><code>Token</code>: 後で使うのでどっかにコピーしておきましょう</li>\n<li><code>Descriptive Label</code>: 空欄 </li>\n<li><code>Customize Icon</code>: 愛着のわく何かにしておくといいでしょう</li>\n</ul>\n\n<h5 id=\"hubot\">Hubotをリモートで起動</h5>\n\n<p>さくらVPSで用意した、CentOSにて作業します。</p>\n\n<pre><code># 先ほどpushしたHubotリポジトリをclone\n&gt; git clone git@github.com:your-org/test-hubot.git\n&gt; cd test-hubot\n# 先ほどと同じ要領でDockerイメージをビルド\n&gt; docker build -t test-hubot .\n</code></pre>\n\n<p>Hubotの入ったDockerコンテナーを起動します。 <br />\n(<code>Dockerfile</code>の<code>CMD</code>で指定したデフォルトの起動コマンドで<code>docker run</code>されます)</p>\n\n<pre><code>&gt; docker run -e HUBOT_SLACK_TOKEN=\"[先ほど設定したToken]\" \\ \n  -e HUBOT_SLACK_TEAM=\"[Slackのチーム名]\" \\\n  -e HUBOT_SLACK_BOTNAME=\"[botの名前]\" \\\n  -e PORT=9999 \\\n  -d -p 9999:9999 \\ # -d でdaemon起動\n  -v \"$(pwd)\":/bot \\\n  test-hubot\n</code></pre>\n\n<p>Slackにて指定したbotに呼びかけてみましょう。</p>\n\n<p>反応が返ってくれば成功です！</p>\n\n<p><img src=\"/content/images/2014/11/----------2014-11-29-4-54-11.png\" alt=\"cat me\" /></p>\n\n<h3 id=\"\">+α(&amp; やり残したこと)</h3>\n\n<ul>\n<li><code>docker run</code>したHubotへの変更の反映、再起動は？\n<ul><li>変更を<code>git pull</code> -> <a href=\"https://docs.docker.com/reference/commandline/cli/#restart\"><code>docker restart CONTAINERID</code></a></li></ul></li>\n<li>運用するリモートサーバーがない\n<ul><li><a href=\"https://github.com/github/hubot/blob/master/docs/deploying/heroku.md\">HubotはHerokuへのデプロイも推奨しているようです</a></li></ul></li>\n<li>「<code>git pull</code> -> <a href=\"https://docs.docker.com/reference/commandline/cli/#restart\"><code>docker restart CONTAINERID</code></a>が面倒くさい」\n<ul><li>ローカルで作成したHubotのDockerイメージを<a href=\"https://registry.hub.docker.com/\">Docker Hub</a>に<code>push</code>し、運用するためのリモートサーバーにて<code>docker pull</code>するのもイケると思います</li></ul></li>\n<li>「会社のSlackだから勝手にIntegrationを追加できない」\n<ul><li>SlackはIRCサーバーとしても使えます(これも<a href=\"https://slack.zendesk.com/hc/en-us/articles/201727913-Connecting-to-Slack-over-IRC-and-XMPP\">Slackの設定次第ですが</a>)</li>\n<li>Hubotの<a href=\"https://github.com/nandub/hubot-irc\">IRCAdapter</a>を利用するとよいでしょう</li></ul></li>\n<li>Hubotの立ち位置\n<ul><li>個人が趣味プロではじめたHubotに、いつのまにか業務が依存しだしたら、Jenkinsとかチームが運用できる手段を真剣に考えた方がいいと思います</li>\n<li><a href=\"http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html\">Githubみたいな使い方</a>を目指すなら運用チームがいないときついと思います</li>\n<li>私個人としては、Hubotはちょっとした業務補助ツール兼、おもちゃくらいです</li></ul></li>\n</ul>\n\n<h3 id=\"\">参考</h3>\n\n<ul>\n<li><a href=\"http://qiita.com/mikesorae/items/b229a8cebe1880ca52b9\">hubot+slackをIRCで動かす</a></li>\n<li><a href=\"http://qiita.com/Katsumata_RYO/items/dc4543aa5827d4c3211c\">slackにHubotを導入(Heroku経由)</a></li>\n<li><a href=\"http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html\">GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013</a></li>\n</ul>",
+            "image": "/content/images/2014/11/service_logo-1.png",
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": "Docker + Yeoman + Hubot + Slack で簡単bot作成",
+            "meta_description": "ご存知、Hubotをわりとモダンなやり方で作ってみたのでご紹介します。コピペで作れます。Dockerでいれるので環境が汚れません。 Githubにリポジトリ��",
+            "author_id": 2,
+            "created_at": "2014-11-28T17:09:49.000Z",
+            "created_by": 2,
+            "updated_at": "2014-11-29T09:50:15.000Z",
+            "updated_by": 3,
+            "published_at": "2014-11-28T17:59:00.000Z",
+            "published_by": 2,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 10,
+            "uuid": "aa680d8a-a2e4-48fd-9f45-8479cba68144",
+            "title": "デザイナーのためのクリエイティブな画像検索サイト「Niice」",
+            "slug": "niice-a-search-engine-with-taste",
+            "markdown": "デザインのインスピレーションが欲しくなった時に、ちょくちょく使ってる「Niice」が色々アップデートしていたので紹介。\n\n<a href=\"https://niice.co/\" target=\"blank\">Niice -A search engine with taste.-</a>\n\n\nキャッチコピーの通り、クリエイティブな画像に特化した検索エンジンで、BehanceやDribbbleを初めとしたデザイナーさん御用達のクリエイティブなWebサイトの画像だけを一括検索できる優れもの。\n\n###### 実際のイメージ検索結果\nとりあえず「Japan」で検索してみる。\n![](/content/images/2014/11/A-search-engine-with-taste--Niice_japan-1.png)\n\nもちろんアプリのUIも検索できる。\n![](/content/images/2014/11/A-search-engine-with-taste--Niice_app-1.png)\n\nロゴもかっこいいのが出てくる。\n![](/content/images/2014/11/A-search-engine-with-taste--Niice_logo-1.png)\n\nカラーコード検索もできちゃう(実験中らしい)。\n![](/content/images/2014/11/A-search-engine-with-taste--Niice_color-1.png)\n\n\nうん。確かにグッドテイスト感ある。<br>\nちなみにGif画像も検索結果画面でさくさく動くので見てるだけでも飽きない。\n\n<br>\n\n###### 自分だけの画像ボードが作れる新機能「Image Stream」\nそして、たまたま見たら気に入った画像で自分だけのイメージストリーム(Image Stream)を作れる機能が搭載されていた。機能は公式動画が分かりやすい。\n<iframe src=\"//player.vimeo.com/video/97440008?title=0&amp;byline=0&amp;portrait=0\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\nPinterestのボードに近いイメージだけど、基本的にクローズドなので自分専用だし、無駄なシェアボタンとかが無いのも好感もてる。\n\nサインアップが必要だけど、無料アカウントでも３ストリームまで作れるので、ひとまず十分。\n有料だと作ったストリーム画像をダウンロードできたり、Dropboxと連携させられるらしい。\n\n\nちなみに、Webサイト上で見つけた好きな画像を自分のストリームに簡単に追加できる<a href=\"https://chrome.google.com/webstore/detail/niice/miegcjodnnjpiakobaofjcjohidgekdi\" target=\"blank\">GoogleChromeのエクステンション</a>もあるのでいい画像見つけたらストックしておける。\n\n個々のUIパーツや素材を探したい時は<a href=\"https://dribbble.com/\" target=\"blank\">Dribbble</a>とかをよく使うけど、もうちょっと全体的なイメージを掴みたい時やインスピレーションを得たい時には便利かと。\n\n<a href=\"https://niice.co/\" target=\"blank\">Niice -A search engine with taste.-</a>\n\n<br>\n\n###### おまけ\nNiiceリリース時のブログにサービスをはじめた理由が書いてあった。\n\n> quoteThe internet is full of inspiration, but since Google doesn’t have a ‘Good Taste’ filter, finding it means jumping back and forth between blogs and gallery sites.\n\nいいね。いい感じのイメージ探すのって意外と大変なので今後の進化に期待。",
+            "html": "<p>デザインのインスピレーションが欲しくなった時に、ちょくちょく使ってる「Niice」が色々アップデートしていたので紹介。</p>\n\n<p><a href=\"https://niice.co/\" target=\"blank\">Niice -A search engine with taste.-</a></p>\n\n<p>キャッチコピーの通り、クリエイティブな画像に特化した検索エンジンで、BehanceやDribbbleを初めとしたデザイナーさん御用達のクリエイティブなWebサイトの画像だけを一括検索できる優れもの。</p>\n\n<h6 id=\"\">実際のイメージ検索結果</h6>\n\n<p>とりあえず「Japan」で検索してみる。\n<img src=\"/content/images/2014/11/A-search-engine-with-taste--Niice_japan-1.png\" alt=\"\" /></p>\n\n<p>もちろんアプリのUIも検索できる。\n<img src=\"/content/images/2014/11/A-search-engine-with-taste--Niice_app-1.png\" alt=\"\" /></p>\n\n<p>ロゴもかっこいいのが出てくる。\n<img src=\"/content/images/2014/11/A-search-engine-with-taste--Niice_logo-1.png\" alt=\"\" /></p>\n\n<p>カラーコード検索もできちゃう(実験中らしい)。\n<img src=\"/content/images/2014/11/A-search-engine-with-taste--Niice_color-1.png\" alt=\"\" /></p>\n\n<p>うん。確かにグッドテイスト感ある。<br>\nちなみにGif画像も検索結果画面でさくさく動くので見てるだけでも飽きない。</p>\n\n<p><br></p>\n\n<h6 id=\"imagestream\">自分だけの画像ボードが作れる新機能「Image Stream」</h6>\n\n<p>そして、たまたま見たら気に入った画像で自分だけのイメージストリーム(Image Stream)を作れる機能が搭載されていた。機能は公式動画が分かりやすい。</p>\n\n<iframe src=\"//player.vimeo.com/video/97440008?title=0&amp;byline=0&amp;portrait=0\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n<p>Pinterestのボードに近いイメージだけど、基本的にクローズドなので自分専用だし、無駄なシェアボタンとかが無いのも好感もてる。</p>\n\n<p>サインアップが必要だけど、無料アカウントでも３ストリームまで作れるので、ひとまず十分。\n有料だと作ったストリーム画像をダウンロードできたり、Dropboxと連携させられるらしい。</p>\n\n<p>ちなみに、Webサイト上で見つけた好きな画像を自分のストリームに簡単に追加できる<a href=\"https://chrome.google.com/webstore/detail/niice/miegcjodnnjpiakobaofjcjohidgekdi\" target=\"blank\">GoogleChromeのエクステンション</a>もあるのでいい画像見つけたらストックしておける。</p>\n\n<p>個々のUIパーツや素材を探したい時は<a href=\"https://dribbble.com/\" target=\"blank\">Dribbble</a>とかをよく使うけど、もうちょっと全体的なイメージを掴みたい時やインスピレーションを得たい時には便利かと。</p>\n\n<p><a href=\"https://niice.co/\" target=\"blank\">Niice -A search engine with taste.-</a></p>\n\n<p><br></p>\n\n<h6 id=\"\">おまけ</h6>\n\n<p>Niiceリリース時のブログにサービスをはじめた理由が書いてあった。</p>\n\n<blockquote>\n  <p>quoteThe internet is full of inspiration, but since Google doesn’t have a ‘Good Taste’ filter, finding it means jumping back and forth between blogs and gallery sites.</p>\n</blockquote>\n\n<p>いいね。いい感じのイメージ探すのって意外と大変なので今後の進化に期待。</p>",
+            "image": "/content/images/2014/11/niice.png",
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": "",
+            "meta_description": "",
+            "author_id": 3,
+            "created_at": "2014-11-28T18:55:50.000Z",
+            "created_by": 3,
+            "updated_at": "2014-11-29T08:03:58.000Z",
+            "updated_by": 3,
+            "published_at": "2014-11-28T20:24:14.000Z",
+            "published_by": 3,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 11,
+            "uuid": "b662ca66-c348-4654-9e47-ed6134e7db0c",
+            "title": "Docker + Fig でghostのブログを構築する",
+            "slug": "docker-fig-deghostnoburoguwogou-zhu-suru",
+            "markdown": "",
+            "html": "",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 2,
+            "created_at": "2015-02-13T19:14:59.000Z",
+            "created_by": 2,
+            "updated_at": "2015-02-13T20:22:57.000Z",
+            "updated_by": 2,
+            "published_at": null,
+            "published_by": null,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 12,
+            "uuid": "2f624751-ad43-41c4-bde5-c28466442b67",
+            "title": "FacebookGraphAPIを使った投稿パターンと見え方まとめ",
+            "slug": "posting-facebook-feed-patterns",
+            "markdown": "satoshun00です。\n\n[Facebook Graph API v2.2](https://developers.facebook.com/docs/graph-api)を使うと、Facebookユーザーフィードへコンテンツの投稿を行うことが出来ます。\n\nFacebookにはフィード投稿の方法がいくつかあり、ユーザーへのフィード上の見え方がそれぞれ異なります。\n\n主な投稿パターンを以下3つに整理しました。\n\n\\#-1. フィードポスト パターン\n\n<img src=\"/content/images/2015/03/me-feedA.png\" width=\"50%\" />\n\n\n\\#-2. Custom Open Graph パターン\n\n<img src=\"/content/images/2015/03/OpenGraphJa-1.png\" width=\"50%\" />\n\n\\#-3. Common Open Graph パターン\n\n<img src=\"/content/images/2015/03/OpenGraphVideo.png\" width=\"50%\" />\n\n※この記事では実装・SDKの利用には触れていません\n\n## \\#-1. フィードポスト パターン\n\nブログ記事やWebサイトの一般的なシェアはこれが簡単でよいでしょう。\n\nAPIドキュメント: [POST /v2.2/me/feed](https://developers.facebook.com/docs/graph-api/reference/v2.2/user/feed#publish)\n\nこの方法では以下２種類の表示を得ることが出来ます。\n\n- アクションリンク付き表示\n- 場所・タグ付け表示\n\n(「アクションリンク付き表示」と「場所・タグ付け表示」を共存させることが出来ませんでした(※理由は要調査))\n\n###### \\#1-a. アクションリンク付き表示\n\n「いいね！」「コメント」の横に、「今すぐダウンロード！(AppStoreへのリンク)」のようなリンク(アクションリンク)を追加できます。\n\nAPIリクエスト例:\n\n![アクションリンク付き表示-APIリクエスト例](/content/images/2015/03/POSTme-feedA.png)\n\n表示:\n\n![アクションリンク付き表示-表示](/content/images/2015/03/me-feedA.png)\n\n###### \\#1-b. 場所・タグ付け表示\n\n投稿に関連するFacebookページ(場所)やユーザー(フレンド)をタグ付け出来ます。\n\nAPIリクエスト例:\n\n![場所・タグ付け表示-APIリクエスト例](/content/images/2015/03/POSTme-feedB-2.png)\n\n表示:\n\n![場所・タグ付け表示-表示](/content/images/2015/03/me-feedB.png)\n\n投稿にはpublish_actionsの権限が必要です※[後述](#publish_actions)\n\n## \\#-2. Custom Open Graph パターン\n\nFacebookでは[オープングラフ](https://developers.facebook.com/docs/sharing/opengraph)の機能により、ユーザーのアプリ上での行動を表現する事が出来ます。\n\n> ◯◯ さんが △△ で □□ を ×× しました。\n\nこのセンテンスの集まりとつながりをFacebookではOpen Graphと読んでいます。\n\n- アクター: 行動の主体となるユーザー\n- アプリ: あなたの開発したアプリ\n- オブジェクト: アクターの行動の対象\n- アクション: アクターの行動\n- ストーリー: オブジェクトとアクションを組み合わせたセンテンス\n\nOpen Graphにおいて開発者は_オブジェクト_・_アクション_・_ストーリー_を独自に定義出来ます。\n\n![Custom Open Graph パターン-例](/content/images/2015/03/OpenGraphJaDesc.png)\n\nでは、実際に[やきそば弁当](http://www.maruchan.co.jp/products/search/42.html)を食べるストーリーを作成してみます。\n\n※あらかじめ[デベロッパーページ](https://developers.facebook.com/apps/)よりアプリケーションの作成を行って下さい\n\n###### a. 名前空間の設定\n\n**MyApp > Settings**\n\nnamespaceに`satoshun-test`を設定します。\n\n###### b. オブジェクトの定義(やきそば弁当)\n\n**MyApp > Open Graph > Object Types > Add Object Type**\n\n`yakisoba_bento`オブジェクトを作成します。\n\n###### c. アクションの定義(食べる)\n\n**MyApp > Open Graph > Action Types > Add Action Type**\n\n`eat`アクションを作成します。\n\n詳細設定より、Capabilitiesを変更します。\n\n- Tags: フレンドのタグ付けを許可します\n- UserMessages: アクションの投稿時にユーザー入力のメッセージを許可します\n- UserGeneratedPhoto: アクションの投稿時にユーザーの画像アップロードを許可します\n- Place: 場所のタグ付けを許可します\n- Explicitly Shared: 明示的なシェアを有効にします(※[後述](#explicit_share))\n\n![Custom Open Graph パターン-アクションの定義-Capabilities](/content/images/2015/03/custom-open-graph1-1.png)\n\n###### d. ストーリーの定義(やきそば弁当を食べる)\n\n**MyApp > Open Graph > Stories > Add Custom Story**\n\nアクションに`Eat`、オブジェクトに`Yakisoba Bento`を選択します。\n\n**MyApp > Open Graph > Stories > Edit Attachments**\n\nレイアウトと説明(キャプション)を設定します。\n\nキャプションにはオブジェクトのプロパティを挿入できます。\n\n![Custom Open Graph パターン-ストーリーの定義-Edit Attachments](/content/images/2015/03/custom-open-graph3.png)\n\n###### e. センテンスの翻訳\n\n今のストーリーのままでは全て英語の表記になってしまうため、翻訳を行います。\n\n**MyApp > Localize > Translate Open Graph Story**\n\n必要に応じてセンテンスを翻訳します。\n\n![Custom Open Graph パターン-センテンスの翻訳](/content/images/2015/03/custom-open-graph2.png)\n\n※１つのストーリーに対し、翻訳すべきセンテンスが１００以上あり、管理が大変そうです…\n\n###### g. 投稿する\n\nAPIリクエスト例:\n\n![Custom Open Graph パターン-投稿する-APIリクエスト例](/content/images/2015/03/POSTOpenGraph-1.png)\n\nユーザーのフィードにこのアクションを流すには、`fb:explicitly_shared`(明示的なシェア※[後述](#explicit_share))を`true`にする必要があります。\n\n`yakisoba_bento`フィールドにはOpen GraphオブジェクトへのURLを指定します。\n\nOpen GraphオブジェクトはOGP準拠のHTMLコンテンツである必要があります。\n\n(参考: [BasicなOGPタグ](https://developers.facebook.com/docs/sharing/webmasters#basic)、[OGPのデバッガー(Facebook公式)](https://developers.facebook.com/tools/debug/og/object/))\n\n```yakisobabento.html\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <title></title>\n    <meta property=\"fb:app_id\" content=\"450643005091501\" /> \n    <!-- og:typeは {namespace}:{Object}の形式 -->\n    <meta property=\"og:type\" content=\"satoshun-test:yakisoba_bento\" /> \n    <meta property=\"og:url\" content=\"https://s3-ap-northeast-1.amazonaws.com/yakisobabentos/yakisobabento.html\" /> \n    <meta property=\"og:title\" content=\"タイトル\" /> \n    <meta property=\"og:image\" content=\"https://s3-ap-northeast-1.amazonaws.com/yakisobabentos/yakisoba.jpeg\" /> \n    <meta property=\"og:description\" content=\"説明文\" />\n    <meta property=\"og:site_name\" content=\"サイト名\" />\n</head>\n<body>\n    おいしいお\n</body>\n</html>\n```\n\n表示:\n\n![Custom Open Graph パターン-投稿する-表示](/content/images/2015/03/OpenGraphJa-1.png)\n\n###### ※審査に関して\n\nCustom Open Graph パターンで作成したオリジナルのアクションは、プロダクション環境で運用する場合、Facebookによる審査が必要になります。\n\n審査開始前に、作成したアイテムを審査対象に追加するのを忘れないようにして下さい。\n\n(Facebookフィードへの投稿にはpublish_actionsの権限が必要なため、どのみち審査を受ける必要はあります)\n\n## \\#-3. Common Open Graph パターン\n\nFacebookGraphAPIにはあらかじめいくつかの定義済みオブジェクトとアクションが用意されています。\n\nCustom Open Graph パターンに比べ、オブジェクトの管理と翻訳にかかるコストをおさえられたり、審査の項目が少なくなったりするなどのメリットがあります。\n\n(参考: [定義済みセットの一覧が見られます](https://developers.facebook.com/docs/reference/opengraph))\n\n「動画を観る」アクションを投稿してみます。\n\n`video.watches`APIリクエスト例:\n\n![Open Graph パターン-APIリクエスト例](/content/images/2015/03/POSTOpenGraph-2.png)\n\nユーザーのフィードにこのアクションを流すには、`fb:explicitly_shared`(明示的なシェア※[後述](#explicit_share))を`true`にする必要があります。\n\n`video`フィールドにはOpen GraphオブジェクトへのURLを指定します。\n\nOpen GraphオブジェクトはOGP準拠のHTMLコンテンツである必要があります。\n\n(参考: [BasicなOGPタグ](https://developers.facebook.com/docs/sharing/webmasters#basic)、[OGPのデバッガー(Facebook公式)](https://developers.facebook.com/tools/debug/og/object/))\n\n```video.html\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <title></title>\n    <meta property=\"fb:app_id\" content=\"450643005091501\" /> \n    <meta property=\"og:type\" content=\"video.movie\" /> \n    <meta property=\"og:url\" content=\"https://www.youtube.com/watch?v=CeNTHATp5eU&list=FLw1_5CLspYMVjEjQ2GSjWaw\" /> \n</head>\n<body>\n    \n</body>\n</html>\n```\n\n`video.watches`表示:\n\n![Common Open Graph パターン-表示](/content/images/2015/03/OpenGraphVideo.png)\n\n## publish_actionsパーミッション <a id=\"publish_actions\"></a>\n\n今回のようにAPIコールでユーザーのタイムラインへ投稿を行う場合、\"publish_actions\"のパーミッションが必要です。\n\nアプリが\"publish_actions\"のパーミッションをユーザーに要求するにはFacebookの審査が必要です。(参考: http://snowadays.jp/2014/05/2762)\n\n※ただし、Share Dialogを使えば\"publish_actions\"のパーミッションなしで、アクションの投稿が可能です\n\n## Explicit share(明示的なシェア) <a id=\"explicit_share\"></a>\n\nExplicit share(明示的なシェア)とは、ユーザーがダイアログ等を使って明示的に投稿することを指します。\n\n反対にImplicit share(暗黙的なシェア)とは音楽プレーヤーでいま聴いている曲をシェアし続けるような、アプリのフロー上でシェアを行うことを指します。\n\n昨年からFacebookはスパム対策の一環としてImplicit shareを非推奨とし、ユーザーのタイムライン上に出ないようにしています。(参考: https://developers.facebook.com/blog/post/2014/05/27/more-control-with-sharing/)\n\nユーザータイムラインへの投稿を行いたい場合はExplicit shareを使いましょうという話です。\n\n## Pre-fill問題について\n\n[Facebookプラットフォームポリシー](https://developers.facebook.com/docs/apps/review/prefill)によれば:\n\n> Pre-fill the user message parameter with any content the user didn't enter themselves, even if they can edit or delete that content before sharing.\n\nユーザーがシェアする文章に、あらかじめ何かしらの文章が入力されていてはならないとのことです。\n\n![Pre-fill問題について](/content/images/2015/03/mefeedAPrefill-2.png)\n赤枠で囲った部分にユーザーが入力した内容の文章以外のものを挿入しないよう注意して下さい。",
+            "html": "<p>satoshun00です。</p>\n\n<p><a href=\"https://developers.facebook.com/docs/graph-api\">Facebook Graph API v2.2</a>を使うと、Facebookユーザーフィードへコンテンツの投稿を行うことが出来ます。</p>\n\n<p>Facebookにはフィード投稿の方法がいくつかあり、ユーザーへのフィード上の見え方がそれぞれ異なります。</p>\n\n<p>主な投稿パターンを以下3つに整理しました。</p>\n\n<p>#-1. フィードポスト パターン</p>\n\n<p><img src=\"/content/images/2015/03/me-feedA.png\" width=\"50%\" /></p>\n\n<p>#-2. Custom Open Graph パターン</p>\n\n<p><img src=\"/content/images/2015/03/OpenGraphJa-1.png\" width=\"50%\" /></p>\n\n<p>#-3. Common Open Graph パターン</p>\n\n<p><img src=\"/content/images/2015/03/OpenGraphVideo.png\" width=\"50%\" /></p>\n\n<p>※この記事では実装・SDKの利用には触れていません</p>\n\n<h2 id=\"1\">#-1. フィードポスト パターン</h2>\n\n<p>ブログ記事やWebサイトの一般的なシェアはこれが簡単でよいでしょう。</p>\n\n<p>APIドキュメント: <a href=\"https://developers.facebook.com/docs/graph-api/reference/v2.2/user/feed#publish\">POST /v2.2/me/feed</a></p>\n\n<p>この方法では以下２種類の表示を得ることが出来ます。</p>\n\n<ul>\n<li>アクションリンク付き表示</li>\n<li>場所・タグ付け表示</li>\n</ul>\n\n<p>(「アクションリンク付き表示」と「場所・タグ付け表示」を共存させることが出来ませんでした(※理由は要調査))</p>\n\n<h6 id=\"1a\">#1-a. アクションリンク付き表示</h6>\n\n<p>「いいね！」「コメント」の横に、「今すぐダウンロード！(AppStoreへのリンク)」のようなリンク(アクションリンク)を追加できます。</p>\n\n<p>APIリクエスト例:</p>\n\n<p><img src=\"/content/images/2015/03/POSTme-feedA.png\" alt=\"アクションリンク付き表示-APIリクエスト例\" /></p>\n\n<p>表示:</p>\n\n<p><img src=\"/content/images/2015/03/me-feedA.png\" alt=\"アクションリンク付き表示-表示\" /></p>\n\n<h6 id=\"1b\">#1-b. 場所・タグ付け表示</h6>\n\n<p>投稿に関連するFacebookページ(場所)やユーザー(フレンド)をタグ付け出来ます。</p>\n\n<p>APIリクエスト例:</p>\n\n<p><img src=\"/content/images/2015/03/POSTme-feedB-2.png\" alt=\"場所・タグ付け表示-APIリクエスト例\" /></p>\n\n<p>表示:</p>\n\n<p><img src=\"/content/images/2015/03/me-feedB.png\" alt=\"場所・タグ付け表示-表示\" /></p>\n\n<p>投稿にはpublish_actionsの権限が必要です※<a href=\"#publish_actions\">後述</a></p>\n\n<h2 id=\"2customopengraph\">#-2. Custom Open Graph パターン</h2>\n\n<p>Facebookでは<a href=\"https://developers.facebook.com/docs/sharing/opengraph\">オープングラフ</a>の機能により、ユーザーのアプリ上での行動を表現する事が出来ます。</p>\n\n<blockquote>\n  <p>◯◯ さんが △△ で □□ を ×× しました。</p>\n</blockquote>\n\n<p>このセンテンスの集まりとつながりをFacebookではOpen Graphと読んでいます。</p>\n\n<ul>\n<li>アクター: 行動の主体となるユーザー</li>\n<li>アプリ: あなたの開発したアプリ</li>\n<li>オブジェクト: アクターの行動の対象</li>\n<li>アクション: アクターの行動</li>\n<li>ストーリー: オブジェクトとアクションを組み合わせたセンテンス</li>\n</ul>\n\n<p>Open Graphにおいて開発者は<em>オブジェクト</em>・<em>アクション</em>・<em>ストーリー</em>を独自に定義出来ます。</p>\n\n<p><img src=\"/content/images/2015/03/OpenGraphJaDesc.png\" alt=\"Custom Open Graph パターン-例\" /></p>\n\n<p>では、実際に<a href=\"http://www.maruchan.co.jp/products/search/42.html\">やきそば弁当</a>を食べるストーリーを作成してみます。</p>\n\n<p>※あらかじめ<a href=\"https://developers.facebook.com/apps/\">デベロッパーページ</a>よりアプリケーションの作成を行って下さい</p>\n\n<h6 id=\"a\">a. 名前空間の設定</h6>\n\n<p><strong>MyApp > Settings</strong></p>\n\n<p>namespaceに<code>satoshun-test</code>を設定します。</p>\n\n<h6 id=\"b\">b. オブジェクトの定義(やきそば弁当)</h6>\n\n<p><strong>MyApp > Open Graph > Object Types > Add Object Type</strong></p>\n\n<p><code>yakisoba_bento</code>オブジェクトを作成します。</p>\n\n<h6 id=\"c\">c. アクションの定義(食べる)</h6>\n\n<p><strong>MyApp > Open Graph > Action Types > Add Action Type</strong></p>\n\n<p><code>eat</code>アクションを作成します。</p>\n\n<p>詳細設定より、Capabilitiesを変更します。</p>\n\n<ul>\n<li>Tags: フレンドのタグ付けを許可します</li>\n<li>UserMessages: アクションの投稿時にユーザー入力のメッセージを許可します</li>\n<li>UserGeneratedPhoto: アクションの投稿時にユーザーの画像アップロードを許可します</li>\n<li>Place: 場所のタグ付けを許可します</li>\n<li>Explicitly Shared: 明示的なシェアを有効にします(※<a href=\"#explicit_share\">後述</a>)</li>\n</ul>\n\n<p><img src=\"/content/images/2015/03/custom-open-graph1-1.png\" alt=\"Custom Open Graph パターン-アクションの定義-Capabilities\" /></p>\n\n<h6 id=\"d\">d. ストーリーの定義(やきそば弁当を食べる)</h6>\n\n<p><strong>MyApp > Open Graph > Stories > Add Custom Story</strong></p>\n\n<p>アクションに<code>Eat</code>、オブジェクトに<code>Yakisoba Bento</code>を選択します。</p>\n\n<p><strong>MyApp > Open Graph > Stories > Edit Attachments</strong></p>\n\n<p>レイアウトと説明(キャプション)を設定します。</p>\n\n<p>キャプションにはオブジェクトのプロパティを挿入できます。</p>\n\n<p><img src=\"/content/images/2015/03/custom-open-graph3.png\" alt=\"Custom Open Graph パターン-ストーリーの定義-Edit Attachments\" /></p>\n\n<h6 id=\"e\">e. センテンスの翻訳</h6>\n\n<p>今のストーリーのままでは全て英語の表記になってしまうため、翻訳を行います。</p>\n\n<p><strong>MyApp > Localize > Translate Open Graph Story</strong></p>\n\n<p>必要に応じてセンテンスを翻訳します。</p>\n\n<p><img src=\"/content/images/2015/03/custom-open-graph2.png\" alt=\"Custom Open Graph パターン-センテンスの翻訳\" /></p>\n\n<p>※１つのストーリーに対し、翻訳すべきセンテンスが１００以上あり、管理が大変そうです…</p>\n\n<h6 id=\"g\">g. 投稿する</h6>\n\n<p>APIリクエスト例:</p>\n\n<p><img src=\"/content/images/2015/03/POSTOpenGraph-1.png\" alt=\"Custom Open Graph パターン-投稿する-APIリクエスト例\" /></p>\n\n<p>ユーザーのフィードにこのアクションを流すには、<code>fb:explicitly_shared</code>(明示的なシェア※<a href=\"#explicit_share\">後述</a>)を<code>true</code>にする必要があります。</p>\n\n<p><code>yakisoba_bento</code>フィールドにはOpen GraphオブジェクトへのURLを指定します。</p>\n\n<p>Open GraphオブジェクトはOGP準拠のHTMLコンテンツである必要があります。</p>\n\n<p>(参考: <a href=\"https://developers.facebook.com/docs/sharing/webmasters#basic\">BasicなOGPタグ</a>、<a href=\"https://developers.facebook.com/tools/debug/og/object/\">OGPのデバッガー(Facebook公式)</a>)</p>\n\n<pre><code class=\"language-yakisobabento.html\">&lt;!DOCTYPE html&gt;  \n&lt;html&gt;  \n&lt;head&gt;  \n    &lt;meta charset=\"utf-8\"&gt;\n    &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt;\n    &lt;title&gt;&lt;/title&gt;\n    &lt;meta property=\"fb:app_id\" content=\"450643005091501\" /&gt; \n    &lt;!-- og:typeは {namespace}:{Object}の形式 --&gt;\n    &lt;meta property=\"og:type\" content=\"satoshun-test:yakisoba_bento\" /&gt; \n    &lt;meta property=\"og:url\" content=\"https://s3-ap-northeast-1.amazonaws.com/yakisobabentos/yakisobabento.html\" /&gt; \n    &lt;meta property=\"og:title\" content=\"タイトル\" /&gt; \n    &lt;meta property=\"og:image\" content=\"https://s3-ap-northeast-1.amazonaws.com/yakisobabentos/yakisoba.jpeg\" /&gt; \n    &lt;meta property=\"og:description\" content=\"説明文\" /&gt;\n    &lt;meta property=\"og:site_name\" content=\"サイト名\" /&gt;\n&lt;/head&gt;  \n&lt;body&gt;  \n    おいしいお\n&lt;/body&gt;  \n&lt;/html&gt;  \n</code></pre>\n\n<p>表示:</p>\n\n<p><img src=\"/content/images/2015/03/OpenGraphJa-1.png\" alt=\"Custom Open Graph パターン-投稿する-表示\" /></p>\n\n<h6 id=\"\">※審査に関して</h6>\n\n<p>Custom Open Graph パターンで作成したオリジナルのアクションは、プロダクション環境で運用する場合、Facebookによる審査が必要になります。</p>\n\n<p>審査開始前に、作成したアイテムを審査対象に追加するのを忘れないようにして下さい。</p>\n\n<p>(Facebookフィードへの投稿にはpublish_actionsの権限が必要なため、どのみち審査を受ける必要はあります)</p>\n\n<h2 id=\"3commonopengraph\">#-3. Common Open Graph パターン</h2>\n\n<p>FacebookGraphAPIにはあらかじめいくつかの定義済みオブジェクトとアクションが用意されています。</p>\n\n<p>Custom Open Graph パターンに比べ、オブジェクトの管理と翻訳にかかるコストをおさえられたり、審査の項目が少なくなったりするなどのメリットがあります。</p>\n\n<p>(参考: <a href=\"https://developers.facebook.com/docs/reference/opengraph\">定義済みセットの一覧が見られます</a>)</p>\n\n<p>「動画を観る」アクションを投稿してみます。</p>\n\n<p><code>video.watches</code>APIリクエスト例:</p>\n\n<p><img src=\"/content/images/2015/03/POSTOpenGraph-2.png\" alt=\"Open Graph パターン-APIリクエスト例\" /></p>\n\n<p>ユーザーのフィードにこのアクションを流すには、<code>fb:explicitly_shared</code>(明示的なシェア※<a href=\"#explicit_share\">後述</a>)を<code>true</code>にする必要があります。</p>\n\n<p><code>video</code>フィールドにはOpen GraphオブジェクトへのURLを指定します。</p>\n\n<p>Open GraphオブジェクトはOGP準拠のHTMLコンテンツである必要があります。</p>\n\n<p>(参考: <a href=\"https://developers.facebook.com/docs/sharing/webmasters#basic\">BasicなOGPタグ</a>、<a href=\"https://developers.facebook.com/tools/debug/og/object/\">OGPのデバッガー(Facebook公式)</a>)</p>\n\n<pre><code class=\"language-video.html\">&lt;!DOCTYPE html&gt;  \n&lt;html&gt;  \n&lt;head&gt;  \n    &lt;meta charset=\"utf-8\"&gt;\n    &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt;\n    &lt;title&gt;&lt;/title&gt;\n    &lt;meta property=\"fb:app_id\" content=\"450643005091501\" /&gt; \n    &lt;meta property=\"og:type\" content=\"video.movie\" /&gt; \n    &lt;meta property=\"og:url\" content=\"https://www.youtube.com/watch?v=CeNTHATp5eU&amp;list=FLw1_5CLspYMVjEjQ2GSjWaw\" /&gt; \n&lt;/head&gt;  \n&lt;body&gt;\n\n&lt;/body&gt;  \n&lt;/html&gt;  \n</code></pre>\n\n<p><code>video.watches</code>表示:</p>\n\n<p><img src=\"/content/images/2015/03/OpenGraphVideo.png\" alt=\"Common Open Graph パターン-表示\" /></p>\n\n<h2 id=\"publish_actionsaidpublish_actionsa\">publish_actionsパーミッション <a id=\"publish_actions\"></a></h2>\n\n<p>今回のようにAPIコールでユーザーのタイムラインへ投稿を行う場合、\"publish_actions\"のパーミッションが必要です。</p>\n\n<p>アプリが\"publish_actions\"のパーミッションをユーザーに要求するにはFacebookの審査が必要です。(参考: <a href=\"http://snowadays.jp/2014/05/2762\">http://snowadays.jp/2014/05/2762</a>)</p>\n\n<p>※ただし、Share Dialogを使えば\"publish_actions\"のパーミッションなしで、アクションの投稿が可能です</p>\n\n<h2 id=\"explicitshareaidexplicit_sharea\">Explicit share(明示的なシェア) <a id=\"explicit_share\"></a></h2>\n\n<p>Explicit share(明示的なシェア)とは、ユーザーがダイアログ等を使って明示的に投稿することを指します。</p>\n\n<p>反対にImplicit share(暗黙的なシェア)とは音楽プレーヤーでいま聴いている曲をシェアし続けるような、アプリのフロー上でシェアを行うことを指します。</p>\n\n<p>昨年からFacebookはスパム対策の一環としてImplicit shareを非推奨とし、ユーザーのタイムライン上に出ないようにしています。(参考: <a href=\"https://developers.facebook.com/blog/post/2014/05/27/more-control-with-sharing/\">https://developers.facebook.com/blog/post/2014/05/27/more-control-with-sharing/</a>)</p>\n\n<p>ユーザータイムラインへの投稿を行いたい場合はExplicit shareを使いましょうという話です。</p>\n\n<h2 id=\"prefill\">Pre-fill問題について</h2>\n\n<p><a href=\"https://developers.facebook.com/docs/apps/review/prefill\">Facebookプラットフォームポリシー</a>によれば:</p>\n\n<blockquote>\n  <p>Pre-fill the user message parameter with any content the user didn't enter themselves, even if they can edit or delete that content before sharing.</p>\n</blockquote>\n\n<p>ユーザーがシェアする文章に、あらかじめ何かしらの文章が入力されていてはならないとのことです。</p>\n\n<p><img src=\"/content/images/2015/03/mefeedAPrefill-2.png\" alt=\"Pre-fill問題について\" />\n赤枠で囲った部分にユーザーが入力した内容の文章以外のものを挿入しないよう注意して下さい。</p>",
+            "image": "/content/images/2015/03/16323062298_258f4ffc74_h.jpg",
+            "featured": 0,
+            "page": 0,
+            "status": "published",
+            "language": "en_US",
+            "meta_title": "FacebookGraphAPIを使った投稿パターンと見え方まとめ",
+            "meta_description": "FacebookGraphAPIを使うとFacebookユーザーフィードへコンテンツの投稿を行うことが出来ます。\n Facebookフィードへの主な投稿パターンを整理しました。",
+            "author_id": 2,
+            "created_at": "2015-03-19T19:01:14.000Z",
+            "created_by": 2,
+            "updated_at": "2015-03-22T14:22:46.000Z",
+            "updated_by": 2,
+            "published_at": "2015-03-22T14:12:52.000Z",
+            "published_by": 2,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 14,
+            "uuid": "3f553cc2-b065-4e23-a009-ee19f1591674",
+            "title": "オープンソースになった、Facebook製静的コード解析ツール「Infer」を使ってみた",
+            "slug": "opunsosuninatutafacebookzhi-jing-de-kodojie-xi-turuinfer-woshi-tutemita",
+            "markdown": "satoshun00です。\n\n[Infer](http://fbinfer.com/)([facebook/infer](https://github.com/facebook/infer))はJava、Objective-C、Cのソースコードを静的解析するツールです。\n\nオープンソースで公開されたと聞き、早速試してみました。\n\nこのあと書くかわかんない・・・(使ってみてあんまりおもしろい結果が出なかった)",
+            "html": "<p>satoshun00です。</p>\n\n<p><a href=\"http://fbinfer.com/\">Infer</a>(<a href=\"https://github.com/facebook/infer\">facebook/infer</a>)はJava、Objective-C、Cのソースコードを静的解析するツールです。</p>\n\n<p>オープンソースで公開されたと聞き、早速試してみました。</p>\n\n<p>このあと書くかわかんない・・・(使ってみてあんまりおもしろい結果が出なかった)</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 2,
+            "created_at": "2015-06-26T17:05:22.000Z",
+            "created_by": 2,
+            "updated_at": "2015-06-26T17:36:06.000Z",
+            "updated_by": 2,
+            "published_at": null,
+            "published_by": null,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 15,
+            "uuid": "edc73aa5-9630-40f1-8d7e-1ec83241a73d",
+            "title": "You've been upgraded to the latest version of Ghost",
+            "slug": "ghost-0-7",
+            "markdown": "You've just upgraded to the latest version of Ghost and we've made a few changes that you should probably know about!\n\n## Woah, why does everything look different?\n\nAfter two years and hundreds of thousands of users, we learned a great deal about what was (and wasn't) working in the old Ghost admin user interface. What you're looking at is Ghost's first major UI refresh, with a strong focus on being more usable and robust all round.\n\n![New Design](https://ghost.org/images/zelda.png)\n\nThe main navigation menu, previously located at the top of your screen, has now moved over to the left. This makes it way easier to work with on mobile devices, and has the added benefit of providing ample space for upcoming features!\n\n## Lost and found: Your old posts\n\nFrom talking to many of you we understand that finding old posts in the admin area was a real pain; so we've added a new magical search bar which lets you quickly find posts for editing, without having to scroll endlessly. Take it for a spin!\n\n![Search](https://ghost.org/images/search.gif)\n\nQuestions? Comments? Send us a tweet [@TryGhost](https://twitter.com/tryghost)\n\nOh, and yes – you can safely delete this draft post!",
+            "html": "<p>You've just upgraded to the latest version of Ghost and we've made a few changes that you should probably know about!</p>\n\n<h2 id=\"woahwhydoeseverythinglookdifferent\">Woah, why does everything look different?</h2>\n\n<p>After two years and hundreds of thousands of users, we learned a great deal about what was (and wasn't) working in the old Ghost admin user interface. What you're looking at is Ghost's first major UI refresh, with a strong focus on being more usable and robust all round.</p>\n\n<p><img src=\"https://ghost.org/images/zelda.png\" alt=\"New Design\" /></p>\n\n<p>The main navigation menu, previously located at the top of your screen, has now moved over to the left. This makes it way easier to work with on mobile devices, and has the added benefit of providing ample space for upcoming features!</p>\n\n<h2 id=\"lostandfoundyouroldposts\">Lost and found: Your old posts</h2>\n\n<p>From talking to many of you we understand that finding old posts in the admin area was a real pain; so we've added a new magical search bar which lets you quickly find posts for editing, without having to scroll endlessly. Take it for a spin!</p>\n\n<p><img src=\"https://ghost.org/images/search.gif\" alt=\"Search\" /></p>\n\n<p>Questions? Comments? Send us a tweet <a href=\"https://twitter.com/tryghost\">@TryGhost</a></p>\n\n<p>Oh, and yes – you can safely delete this draft post!</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 1,
+            "created_at": "2015-09-03T15:36:11.000Z",
+            "created_by": 1,
+            "updated_at": "2015-09-03T15:36:11.000Z",
+            "updated_by": 1,
+            "published_at": "2015-09-03T15:36:11.000Z",
+            "published_by": null,
+            "visibility": "public",
+            "mobiledoc": null
+          },
+          {
+            "id": 16,
+            "uuid": "51d6fd88-c003-41d1-8b9e-d6bd3bddc8f0",
+            "title": "Google Tag Managerを使って画面サイズに応じた動的広告配信を実装する",
+            "slug": "google-tag-managerwoshi-tutehua-mian-saizuniying-zitadong-de-guang-gao-pei-xin-woshe-ding-suru",
+            "markdown": "satoshun00です。\n\n皆さん、GoogleTagManager使ってますか。\n\n\n\n### GoogleTagManagerで広告配信タグを作成\n\nGoogleTagMangerを構成する主な設定項目は「`変数`、`トリガー`、`タグ`」です。順に設定していきましょう。\n\n###### \\#-1. ブレークポイント種別`変数`の作成\n\nGoogleTagManagerで画面サイズの種類(デスクトップ、スマートフォン・タブレット)を判別するための変数を作成します。\n\nメニューから`変数 > 新規`を選択し、下記画像のように項目を設定します。\n\n![Variable](/content/images/2015/12/----------2015-12-26-4-47-27.png)\n\nGoogleTagManagerにおける「[データレイヤー変数](https://support.google.com/tagmanager/answer/6106899?hl=ja&ref_topic=3441647)」は、クライアントのjavascriptとGoogleTagManagerが`dataLayer`変数を通じてやり取り出来るjavascriptオブジェクトのことです。\n\n例では`dataLayer.push({breakpoint: 'desktop'})`のようにクライアントから送信された変数の中身を、GoogleTagManagerにて参照し、タグ配信条件を分岐させるのに利用します。\n\nまた、変数には他にページの参照元(リファラー)やページのURLといったよく使う変数や、CSSセレクターを使ってクライアントのタグ内の値を参照出来るDOM変数など便利な変数が用意されています。(詳しくは[変数](https://support.google.com/tagmanager/answer/6106899?hl=ja&ref_topic=3441647)リファレンスを参照して下さい)\n\n###### \\#-2. 画面サイズ変更イベント`トリガー`の作成\n\nGoogleTagManagerで画面サイズの変更イベントによって発火するトリガーを作成します。\n\nメニューから`トリガー > 新規`を選択し、下記画像のように項目を設定します。\n\n![Trigger1](/content/images/2015/12/----------2015-12-26-5-53-28.png)\n\nスマートフォンの画面サイズになった時に発火するイベントも同様に作成します。\n\n![Trigger2](/content/images/2015/12/----------2015-12-26-5-35-25.png)\n\nGoogleTagManagerにおける「[カスタムイベント](https://support.google.com/tagmanager/answer/6106961?hl=ja&ref_topic=3441647)」は`dataLayer.push()`でクライアントからイベントが送信されると発火するトリガーを作成出来ます。\n\n例では`dataLayer.push({event: 'media-screen-changed', breakpoint: 'desktop'})`のように、#-1で設定したブレークポイント種別変数を同時に送信し、GoogleTagManagerで発火条件として指定しています。\n\nまた、トリガーには他にユーザーのクリックイベントやページビュー(window.onLoadやDOMContentLoadedイベント)といった便利なトリガーが用意されています。(詳しくは[トリガー](https://support.google.com/tagmanager/answer/6106961?hl=ja&ref_topic=3441647)リファレンスを参照して下さい)\n\n###### \\#-3. 広告配信`タグ`の作成\n\nGoogleTagManagerでトリガーを条件に配信されるタグを作成します。\n\nメニューから`タグ > 新規`を選択し、下記画像のように項目を設定します。\n\n「配信するタイミング」の項目に#-2で作成した「イベント - 画面サイズ変更 - デスクトップ」トリガーを指定します。\n\nカスタムHTMLとして仮に下記のコードを実行しています。\n\n```html\n<script>\n  (function(d) {\n    var element = d.getElementById('koukoku-waku-1');\n    if (element) {\n      // 配置先の広告枠を空にする\n      while(element.hasChildNodes()){\n        element.removeChild(element.lastChild);\n      }\n      // 広告を枠に設定\n      var ad = d.createElement('div');\n      ad.textContent = 'デスクトップの広告';\n      element.appendChild(ad);\n    }\n  })(document);\n</script>\n```\n\n![Tag1](/content/images/2015/12/screenshot-tagmanager-google-com-2015-12-26-06-56-21.png)\n\nスマートフォンの画面サイズになった時に配信するタグも同様に作成してください。\n\nGoogleTagManagerにおける「[カスタムHTML](https://support.google.com/tagmanager/answer/6107167?hl=ja&ref_topic=3281056)」は任意のHTMLタグを配信出来ます。\n\n例では`<script>`タグを作成し、広告枠の要素(#koukoku-waku-1がふられた要素)に広告エレメントを挿入しています。(実践では広告スクリプトのロードを行うことになるでしょう)\n\nまた、タグには他にGoogleAnalyticsへのイベント送信などのタグが用意されています。(詳しくは[タグ](https://support.google.com/tagmanager/answer/3281060?hl=ja&ref_topic=3281056)リファレンスを参照して下さい)\n\n### GoogleTagManagerスニペットの追加\n\n[設定とインストール](https://support.google.com/tagmanager/answer/6103696?hl=ja&ref_topic=3441530)を参考に、HTMLのBodyタグ内にGoogleTagManagerスニペットを追加して下さい。\n\n### ブレークポイントイベントの設定\n\n作成したGoogleTagManagerタグの配信をjavascriptのソースからトリガーします。\n\n画面サイズの変更に応じて動的にイベントを送信するため、それに適したモジュールを使用します。\n\nここでは[js-breakpoints](https://www.npmjs.com/package/js-breakpoints)モジュールを使い、CSSに定義されたブレークポイントに応じて画面サイズ変更のイベントが発火するようにします。\n\n以下、ほぼ[モジュールのドキュメント](https://github.com/14islands/js-breakpoints#javascript-breakpoints)通りです。\n\n※今回、sassやjavascriptのimport部分は本質でないので、説明を端折っています。環境に応じて適宜読み変えて下さい。\n\n###### \\#-1. [js-breakpoints](https://www.npmjs.com/package/js-breakpoints)モジュールをインストール\n```sh\nnpm install --save --save-exact js-breakpoints\n# もしくは\nbower install --save --save-exact js-breakpoints\n```\n\n###### \\#-2. CSSにメディアクエリーブレークポイントを設定\n\n`defineBreakpoint`ミックスインをincludeすることにより、要素の`:after`擬似要素に、`content: 設定した名前;`でコンテンツプロパティが設定されるようです。\n\n```scss\n@import '../../node_modules/js-breakpoints/breakpoints';\n\n// ブレークポイント。960px以上をデスクトップとする\n$desktop-breakpoint: 960px;\n\n// デスクトップより小さいサイズのメディアクエリー\n@mixin phone-and-tablet() {\n  @media screen and (max-width: $desktop-breakpoint - 1) {\n    @content;\n  }\n}\n\n// デスクトップ以上のサイズのメディアクエリー\n@mixin desktop() {\n  @media screen and (min-width: $desktop-breakpoint) {\n    @content;\n  }\n}\n\nbody {\n  // 適当なブレークポイントの名称を設定する\n  @include desktop {\n    @include defineBreakpoint('DESKTOP_SCREEN');\n  }\n  @include phone-and-tablet {\n    @include defineBreakpoint('PHONE_AND_TABLET_SCREEN');\n  }\n}\n```\n\n###### \\#-3. メディアクエリーブレークポイントイベントを発火させる\n\n例によってBrowserifyでrequireを解決していますが、ここもほぼ[モジュールのドキュメント](https://github.com/14islands/js-breakpoints#javascript-breakpoints)通りです。(Browserifyを使用しない場合、`<script>`タグでモジュールをロードして下さい)\n\n先のCSSで設定したブレークポイントの名称に対応する、nameプロパティのブレークポイントイベントが発火します。\n\n※`dataLayer`にデータをpushするため、先で設定したGoogleTagManagerスニペットよりも後で下記javascriptをロードします\n\n```js\nrequire('js-breakpoints');\n\nvar bodyTag = document.body;\n// 画面サイズがブレークポイントに到達した時に発火するイベント\n// GoogleTagManagerで作成したイベント名、及びブレークポイント名をdataLayerオブジェクトにpushする\nvar pushMediaScreenChangedEvent = function(breakpoint) {\n  dataLayer.push({\n    event: 'media-screen-changed',\n    breakpoint: breakpoint\n  });\n};\n\nBreakpoints.on({\n  // 先で設定したブレークポイントの名称\n  name: 'DESKTOP_SCREEN',\n  // 先でブレークポイントを設定した要素を指定\n  el: bodyTag,\n  matched: function() {\n    pushMediaScreenChangedEvent('desktop');\n  }\n});\nBreakpoints.on({\n  name: 'PHONE_AND_TABLET_SCREEN',\n  el: bodyTag,\n  matched: function() {\n    pushMediaScreenChangedEvent('phone-and-tablet');\n  }\n});\n```\n\n### 配信テスト\n\nGoogleTagManagerの画面に戻って、「プレビューモード」でタグ配信をデバッグします。\nプレビューモードはプレビューを実行したブラウザーにのみタグ配信が行われる便利機能です\n\n",
+            "html": "<p>satoshun00です。</p>\n\n<p>皆さん、GoogleTagManager使ってますか。</p>\n\n<h3 id=\"googletagmanager\">GoogleTagManagerで広告配信タグを作成</h3>\n\n<p>GoogleTagMangerを構成する主な設定項目は「<code>変数</code>、<code>トリガー</code>、<code>タグ</code>」です。順に設定していきましょう。</p>\n\n<h6 id=\"1\">#-1. ブレークポイント種別<code>変数</code>の作成</h6>\n\n<p>GoogleTagManagerで画面サイズの種類(デスクトップ、スマートフォン・タブレット)を判別するための変数を作成します。</p>\n\n<p>メニューから<code>変数 &gt; 新規</code>を選択し、下記画像のように項目を設定します。</p>\n\n<p><img src=\"/content/images/2015/12/----------2015-12-26-4-47-27.png\" alt=\"Variable\" /></p>\n\n<p>GoogleTagManagerにおける「<a href=\"https://support.google.com/tagmanager/answer/6106899?hl=ja&amp;ref_topic=3441647\">データレイヤー変数</a>」は、クライアントのjavascriptとGoogleTagManagerが<code>dataLayer</code>変数を通じてやり取り出来るjavascriptオブジェクトのことです。</p>\n\n<p>例では<code>dataLayer.push({breakpoint: 'desktop'})</code>のようにクライアントから送信された変数の中身を、GoogleTagManagerにて参照し、タグ配信条件を分岐させるのに利用します。</p>\n\n<p>また、変数には他にページの参照元(リファラー)やページのURLといったよく使う変数や、CSSセレクターを使ってクライアントのタグ内の値を参照出来るDOM変数など便利な変数が用意されています。(詳しくは<a href=\"https://support.google.com/tagmanager/answer/6106899?hl=ja&amp;ref_topic=3441647\">変数</a>リファレンスを参照して下さい)</p>\n\n<h6 id=\"2\">#-2. 画面サイズ変更イベント<code>トリガー</code>の作成</h6>\n\n<p>GoogleTagManagerで画面サイズの変更イベントによって発火するトリガーを作成します。</p>\n\n<p>メニューから<code>トリガー &gt; 新規</code>を選択し、下記画像のように項目を設定します。</p>\n\n<p><img src=\"/content/images/2015/12/----------2015-12-26-5-53-28.png\" alt=\"Trigger1\" /></p>\n\n<p>スマートフォンの画面サイズになった時に発火するイベントも同様に作成します。</p>\n\n<p><img src=\"/content/images/2015/12/----------2015-12-26-5-35-25.png\" alt=\"Trigger2\" /></p>\n\n<p>GoogleTagManagerにおける「<a href=\"https://support.google.com/tagmanager/answer/6106961?hl=ja&amp;ref_topic=3441647\">カスタムイベント</a>」は<code>dataLayer.push()</code>でクライアントからイベントが送信されると発火するトリガーを作成出来ます。</p>\n\n<p>例では<code>dataLayer.push({event: 'media-screen-changed', breakpoint: 'desktop'})</code>のように、#-1で設定したブレークポイント種別変数を同時に送信し、GoogleTagManagerで発火条件として指定しています。</p>\n\n<p>また、トリガーには他にユーザーのクリックイベントやページビュー(window.onLoadやDOMContentLoadedイベント)といった便利なトリガーが用意されています。(詳しくは<a href=\"https://support.google.com/tagmanager/answer/6106961?hl=ja&amp;ref_topic=3441647\">トリガー</a>リファレンスを参照して下さい)</p>\n\n<h6 id=\"3\">#-3. 広告配信<code>タグ</code>の作成</h6>\n\n<p>GoogleTagManagerでトリガーを条件に配信されるタグを作成します。</p>\n\n<p>メニューから<code>タグ &gt; 新規</code>を選択し、下記画像のように項目を設定します。</p>\n\n<p>「配信するタイミング」の項目に#-2で作成した「イベント - 画面サイズ変更 - デスクトップ」トリガーを指定します。</p>\n\n<p>カスタムHTMLとして仮に下記のコードを実行しています。</p>\n\n<pre><code class=\"language-html\">&lt;script&gt;  \n  (function(d) {\n    var element = d.getElementById('koukoku-waku-1');\n    if (element) {\n      // 配置先の広告枠を空にする\n      while(element.hasChildNodes()){\n        element.removeChild(element.lastChild);\n      }\n      // 広告を枠に設定\n      var ad = d.createElement('div');\n      ad.textContent = 'デスクトップの広告';\n      element.appendChild(ad);\n    }\n  })(document);\n&lt;/script&gt;  \n</code></pre>\n\n<p><img src=\"/content/images/2015/12/screenshot-tagmanager-google-com-2015-12-26-06-56-21.png\" alt=\"Tag1\" /></p>\n\n<p>スマートフォンの画面サイズになった時に配信するタグも同様に作成してください。</p>\n\n<p>GoogleTagManagerにおける「<a href=\"https://support.google.com/tagmanager/answer/6107167?hl=ja&amp;ref_topic=3281056\">カスタムHTML</a>」は任意のHTMLタグを配信出来ます。</p>\n\n<p>例では<code>&lt;script&gt;</code>タグを作成し、広告枠の要素(#koukoku-waku-1がふられた要素)に広告エレメントを挿入しています。(実践では広告スクリプトのロードを行うことになるでしょう)</p>\n\n<p>また、タグには他にGoogleAnalyticsへのイベント送信などのタグが用意されています。(詳しくは<a href=\"https://support.google.com/tagmanager/answer/3281060?hl=ja&amp;ref_topic=3281056\">タグ</a>リファレンスを参照して下さい)</p>\n\n<h3 id=\"googletagmanager\">GoogleTagManagerスニペットの追加</h3>\n\n<p><a href=\"https://support.google.com/tagmanager/answer/6103696?hl=ja&amp;ref_topic=3441530\">設定とインストール</a>を参考に、HTMLのBodyタグ内にGoogleTagManagerスニペットを追加して下さい。</p>\n\n<h3 id=\"\">ブレークポイントイベントの設定</h3>\n\n<p>作成したGoogleTagManagerタグの配信をjavascriptのソースからトリガーします。</p>\n\n<p>画面サイズの変更に応じて動的にイベントを送信するため、それに適したモジュールを使用します。</p>\n\n<p>ここでは<a href=\"https://www.npmjs.com/package/js-breakpoints\">js-breakpoints</a>モジュールを使い、CSSに定義されたブレークポイントに応じて画面サイズ変更のイベントが発火するようにします。</p>\n\n<p>以下、ほぼ<a href=\"https://github.com/14islands/js-breakpoints#javascript-breakpoints\">モジュールのドキュメント</a>通りです。</p>\n\n<p>※今回、sassやjavascriptのimport部分は本質でないので、説明を端折っています。環境に応じて適宜読み変えて下さい。</p>\n\n<h6 id=\"1jsbreakpointshttpswwwnpmjscompackagejsbreakpoints\">#-1. <a href=\"https://www.npmjs.com/package/js-breakpoints\">js-breakpoints</a>モジュールをインストール</h6>\n\n<pre><code class=\"language-sh\">npm install --save --save-exact js-breakpoints  \n# もしくは\nbower install --save --save-exact js-breakpoints  \n</code></pre>\n\n<h6 id=\"2css\">#-2. CSSにメディアクエリーブレークポイントを設定</h6>\n\n<p><code>defineBreakpoint</code>ミックスインをincludeすることにより、要素の<code>:after</code>擬似要素に、<code>content: 設定した名前;</code>でコンテンツプロパティが設定されるようです。</p>\n\n<pre><code class=\"language-scss\">@import '../../node_modules/js-breakpoints/breakpoints';\n\n// ブレークポイント。960px以上をデスクトップとする\n$desktop-breakpoint: 960px;\n\n// デスクトップより小さいサイズのメディアクエリー\n@mixin phone-and-tablet() {\n  @media screen and (max-width: $desktop-breakpoint - 1) {\n    @content;\n  }\n}\n\n// デスクトップ以上のサイズのメディアクエリー\n@mixin desktop() {\n  @media screen and (min-width: $desktop-breakpoint) {\n    @content;\n  }\n}\n\nbody {  \n  // 適当なブレークポイントの名称を設定する\n  @include desktop {\n    @include defineBreakpoint('DESKTOP_SCREEN');\n  }\n  @include phone-and-tablet {\n    @include defineBreakpoint('PHONE_AND_TABLET_SCREEN');\n  }\n}\n</code></pre>\n\n<h6 id=\"3\">#-3. メディアクエリーブレークポイントイベントを発火させる</h6>\n\n<p>例によってBrowserifyでrequireを解決していますが、ここもほぼ<a href=\"https://github.com/14islands/js-breakpoints#javascript-breakpoints\">モジュールのドキュメント</a>通りです。(Browserifyを使用しない場合、<code>&lt;script&gt;</code>タグでモジュールをロードして下さい)</p>\n\n<p>先のCSSで設定したブレークポイントの名称に対応する、nameプロパティのブレークポイントイベントが発火します。</p>\n\n<p>※<code>dataLayer</code>にデータをpushするため、先で設定したGoogleTagManagerスニペットよりも後で下記javascriptをロードします</p>\n\n<pre><code class=\"language-js\">require('js-breakpoints');\n\nvar bodyTag = document.body;  \n// 画面サイズがブレークポイントに到達した時に発火するイベント\n// GoogleTagManagerで作成したイベント名、及びブレークポイント名をdataLayerオブジェクトにpushする\nvar pushMediaScreenChangedEvent = function(breakpoint) {  \n  dataLayer.push({\n    event: 'media-screen-changed',\n    breakpoint: breakpoint\n  });\n};\n\nBreakpoints.on({  \n  // 先で設定したブレークポイントの名称\n  name: 'DESKTOP_SCREEN',\n  // 先でブレークポイントを設定した要素を指定\n  el: bodyTag,\n  matched: function() {\n    pushMediaScreenChangedEvent('desktop');\n  }\n});\nBreakpoints.on({  \n  name: 'PHONE_AND_TABLET_SCREEN',\n  el: bodyTag,\n  matched: function() {\n    pushMediaScreenChangedEvent('phone-and-tablet');\n  }\n});\n</code></pre>\n\n<h3 id=\"\">配信テスト</h3>\n\n<p>GoogleTagManagerの画面に戻って、「プレビューモード」でタグ配信をデバッグします。 <br />\nプレビューモードはプレビューを実行したブラウザーにのみタグ配信が行われる便利機能です</p>",
+            "image": null,
+            "featured": 0,
+            "page": 0,
+            "status": "draft",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "author_id": 2,
+            "created_at": "2015-12-25T17:45:26.000Z",
+            "created_by": 2,
+            "updated_at": "2016-01-02T07:13:13.000Z",
+            "updated_by": 2,
+            "published_at": null,
+            "published_by": null,
+            "visibility": "public",
+            "mobiledoc": null
+          }
+        ],
+        "posts_tags": [
+          {
+            "id": 85,
+            "post_id": 10,
+            "tag_id": 6,
+            "sort_order": 0
+          },
+          {
+            "id": 86,
+            "post_id": 10,
+            "tag_id": 7,
+            "sort_order": 2
+          },
+          {
+            "id": 87,
+            "post_id": 10,
+            "tag_id": 8,
+            "sort_order": 1
+          },
+          {
+            "id": 112,
+            "post_id": 9,
+            "tag_id": 2,
+            "sort_order": 3
+          },
+          {
+            "id": 113,
+            "post_id": 9,
+            "tag_id": 3,
+            "sort_order": 2
+          },
+          {
+            "id": 114,
+            "post_id": 9,
+            "tag_id": 4,
+            "sort_order": 1
+          },
+          {
+            "id": 115,
+            "post_id": 9,
+            "tag_id": 5,
+            "sort_order": 0
+          },
+          {
+            "id": 844,
+            "post_id": 12,
+            "tag_id": 9,
+            "sort_order": 2
+          },
+          {
+            "id": 845,
+            "post_id": 12,
+            "tag_id": 10,
+            "sort_order": 1
+          },
+          {
+            "id": 846,
+            "post_id": 12,
+            "tag_id": 12,
+            "sort_order": 0
+          },
+          {
+            "id": 847,
+            "post_id": 12,
+            "tag_id": 13,
+            "sort_order": 3
+          }
+        ],
+        "roles": [
+          {
+            "id": 1,
+            "uuid": "867ae16a-c866-4817-9e14-6c6912245aee",
+            "name": "Administrator",
+            "description": "Administrators",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "9006fcb9-6e86-43d0-b3ce-79d5821267ce",
+            "name": "Editor",
+            "description": "Editors",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "d328a965-78ac-4b07-91dc-e2c0ed442a69",
+            "name": "Author",
+            "description": "Authors",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "b1eefb42-3e8f-408b-8c5c-c1c6c03bd39a",
+            "name": "Owner",
+            "description": "Blog Owner",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          }
+        ],
+        "roles_users": [
+          {
+            "id": 1,
+            "role_id": 4,
+            "user_id": 1
+          },
+          {
+            "id": 2,
+            "role_id": 1,
+            "user_id": 2
+          },
+          {
+            "id": 3,
+            "role_id": 1,
+            "user_id": 3
+          }
+        ],
+        "settings": [
+          {
+            "id": 1,
+            "uuid": "bd3b441a-1ef4-4534-b359-b11838b28190",
+            "key": "databaseVersion",
+            "value": "005",
+            "type": "core",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 2,
+            "uuid": "d5e35433-8362-468c-bf94-72916f0d61ae",
+            "key": "dbHash",
+            "value": "61f4b886-a0ad-481b-bb68-cf512ae30140",
+            "type": "core",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 3,
+            "uuid": "11baeb1a-3c50-48c9-b88b-a6ef95f42447",
+            "key": "nextUpdateCheck",
+            "value": null,
+            "type": "core",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 4,
+            "uuid": "f15ce433-2452-4665-acd7-cb83405e29e5",
+            "key": "displayUpdateNotification",
+            "value": null,
+            "type": "core",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 5,
+            "uuid": "3eac5174-a253-42ae-9f63-e18c9e5487b0",
+            "key": "title",
+            "value": "FennecLab Blog",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 6,
+            "uuid": "ac429efe-43d1-467d-b8de-a1cb7627d89c",
+            "key": "description",
+            "value": "Let's Get Freaky With Technology",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 7,
+            "uuid": "1ed97266-c519-47be-95c1-025b4c875b0a",
+            "key": "email",
+            "value": "web.service@fenneclab.com",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 8,
+            "uuid": "05b83e6b-d8ff-4ca6-ae96-8492e708a5c5",
+            "key": "logo",
+            "value": "",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 9,
+            "uuid": "ba159ded-b175-410b-bd14-c973d919ae42",
+            "key": "cover",
+            "value": "/content/images/2015/01/fenneclab_winter.png",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 10,
+            "uuid": "dbb2a6ea-fdff-4810-9653-1089da5ff83c",
+            "key": "defaultLang",
+            "value": "en_US",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 11,
+            "uuid": "e3dd659b-d26c-40cc-8c78-da930d3587b8",
+            "key": "postsPerPage",
+            "value": "5",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 12,
+            "uuid": "7d03e2ca-b2d5-4416-a0c9-54a72e985e77",
+            "key": "forceI18n",
+            "value": "true",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 13,
+            "uuid": "917b3860-83c2-473c-b30c-ee0c72a78603",
+            "key": "permalinks",
+            "value": "/:slug/",
+            "type": "blog",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 14,
+            "uuid": "673cc4f9-5d9f-42dd-83db-f93a40f27ace",
+            "key": "activeApps",
+            "value": "[]",
+            "type": "app",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 15,
+            "uuid": "36ad05fb-670f-4849-ac55-5c537be00786",
+            "key": "installedApps",
+            "value": "[]",
+            "type": "app",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-28T15:35:10.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 16,
+            "uuid": "c63fa1c4-9458-4203-a3b6-f5b3313b81f3",
+            "key": "activeTheme",
+            "value": "casper",
+            "type": "theme",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 17,
+            "uuid": "c1c4cbb7-5c6f-430e-922d-8364b0f155de",
+            "key": "ghost_head",
+            "value": "",
+            "type": "blog",
+            "created_at": "2014-12-05T17:48:10.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 18,
+            "uuid": "9ba0bdd7-9540-4f9e-8fe3-9114af6cc923",
+            "key": "ghost_foot",
+            "value": "<!-- You can safely delete this line if your theme does not require jQuery -->\n<script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-1.11.3.min.js\"></script>\n\n",
+            "type": "blog",
+            "created_at": "2014-12-05T17:48:10.000Z",
+            "created_by": 1,
+            "updated_at": "2015-09-03T15:36:11.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 19,
+            "uuid": "11a0bf44-fd78-47b3-aaee-28277a933b20",
+            "key": "labs",
+            "value": "{}",
+            "type": "blog",
+            "created_at": "2015-01-13T01:01:43.000Z",
+            "created_by": 1,
+            "updated_at": "2015-01-19T15:24:11.000Z",
+            "updated_by": 3
+          },
+          {
+            "id": 20,
+            "uuid": "f19b5f3a-8f96-47ec-9e48-8c62bc3dee56",
+            "key": "navigation",
+            "value": "[{\"label\":\"Home\", \"url\":\"/\"}]",
+            "type": "blog",
+            "created_at": "2015-03-01T00:06:31.000Z",
+            "created_by": 1,
+            "updated_at": "2015-03-01T00:06:31.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 21,
+            "uuid": "f5d61931-e123-429b-8b40-c2be403dfd31",
+            "key": "isPrivate",
+            "value": "false",
+            "type": "private",
+            "created_at": "2015-05-14T18:06:17.000Z",
+            "created_by": 1,
+            "updated_at": "2015-09-03T15:36:11.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 22,
+            "uuid": "dd8bfce5-3290-4c0f-a793-ebb8b05a0469",
+            "key": "password",
+            "value": "",
+            "type": "private",
+            "created_at": "2015-05-14T18:06:17.000Z",
+            "created_by": 1,
+            "updated_at": "2015-09-03T15:36:11.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 23,
+            "uuid": "5d2677e6-6c29-4eb4-bdab-7b4f52dc29b6",
+            "key": "facebook",
+            "value": "",
+            "type": "blog",
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 24,
+            "uuid": "935cb815-a40d-48f5-a1c5-68e5e5c7689e",
+            "key": "twitter",
+            "value": "",
+            "type": "blog",
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          },
+          {
+            "id": 25,
+            "uuid": "d2cbceed-0056-4f90-8c9b-064195732541",
+            "key": "slack",
+            "value": "[{\"url\":\"\"}]",
+            "type": "blog",
+            "created_at": "2016-05-18T13:26:26.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-18T13:26:26.000Z",
+            "updated_by": 1
+          }
+        ],
+        "subscribers": [],
+        "tags": [
+          {
+            "id": 1,
+            "uuid": "14eba596-201a-4607-ac3c-473749bcb461",
+            "name": "Getting Started",
+            "slug": "getting-started",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2014-10-03T17:50:38.000Z",
+            "updated_by": 1,
+            "visibility": "public"
+          },
+          {
+            "id": 2,
+            "uuid": "67774bf5-db3e-47f0-a848-2c2789bbaf2a",
+            "name": "Docker",
+            "slug": "docker",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T19:47:48.000Z",
+            "created_by": 2,
+            "updated_at": "2014-11-28T19:47:48.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 3,
+            "uuid": "e1f872f6-9423-4e60-b8f0-3c70d09249f8",
+            "name": "Slack",
+            "slug": "slack",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T19:47:48.000Z",
+            "created_by": 2,
+            "updated_at": "2014-11-28T19:47:48.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 4,
+            "uuid": "f4e17b04-86e0-4586-9274-183ab1dadb8e",
+            "name": "Yeoman",
+            "slug": "yeoman",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T19:47:48.000Z",
+            "created_by": 2,
+            "updated_at": "2014-11-28T19:47:48.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 5,
+            "uuid": "0ba38483-9607-41d6-9c40-c06e5365f064",
+            "name": "Hubot",
+            "slug": "hubot",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T19:47:48.000Z",
+            "created_by": 2,
+            "updated_at": "2014-11-28T19:47:48.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 6,
+            "uuid": "6c1bc84e-e276-46c7-9be7-3bfccf403e67",
+            "name": "Niice",
+            "slug": "niice",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T21:05:35.000Z",
+            "created_by": 3,
+            "updated_at": "2014-11-28T21:05:35.000Z",
+            "updated_by": 3,
+            "visibility": "public"
+          },
+          {
+            "id": 7,
+            "uuid": "8e1958a6-4425-43b8-813c-a03e19c01ae9",
+            "name": "画像検索",
+            "slug": "hua-xiang-jian-suo",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T21:05:35.000Z",
+            "created_by": 3,
+            "updated_at": "2014-11-28T21:05:35.000Z",
+            "updated_by": 3,
+            "visibility": "public"
+          },
+          {
+            "id": 8,
+            "uuid": "8d11e8a7-fe26-41d8-a57f-3f6514f1808f",
+            "name": "Webサービス",
+            "slug": "websabisu",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2014-11-28T21:05:35.000Z",
+            "created_by": 3,
+            "updated_at": "2014-11-28T21:05:35.000Z",
+            "updated_by": 3,
+            "visibility": "public"
+          },
+          {
+            "id": 9,
+            "uuid": "bc262a18-99fa-436e-8f76-3e1a0f709c1e",
+            "name": "Facebook",
+            "slug": "facebook",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2015-03-20T18:02:22.000Z",
+            "created_by": 2,
+            "updated_at": "2015-03-20T18:02:22.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 10,
+            "uuid": "46cd72fc-07b5-427b-9c77-cd4ba512290b",
+            "name": "OpenGraph",
+            "slug": "opengraph",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2015-03-20T18:02:22.000Z",
+            "created_by": 2,
+            "updated_at": "2015-03-20T18:02:22.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 11,
+            "uuid": "1cddb0c6-003b-4e5b-baef-530cac387429",
+            "name": "Pattern",
+            "slug": "pattern",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2015-03-20T18:02:22.000Z",
+            "created_by": 2,
+            "updated_at": "2015-03-20T18:02:22.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 12,
+            "uuid": "c785400e-97ee-4031-a517-0a0504ef8ce6",
+            "name": "GraphAPI",
+            "slug": "graphapi",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2015-03-20T18:02:22.000Z",
+            "created_by": 2,
+            "updated_at": "2015-03-20T18:02:22.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          },
+          {
+            "id": 13,
+            "uuid": "d615b1e1-9a9b-47d3-9662-ae3e18df978a",
+            "name": "v2.2",
+            "slug": "v2-2",
+            "description": null,
+            "image": null,
+            "parent_id": null,
+            "meta_title": null,
+            "meta_description": null,
+            "created_at": "2015-03-20T18:02:22.000Z",
+            "created_by": 2,
+            "updated_at": "2015-03-20T18:02:22.000Z",
+            "updated_by": 2,
+            "visibility": "public"
+          }
+        ],
+        "users": [
+          {
+            "id": 1,
+            "uuid": "a3818bef-0ca5-492c-a02a-291fc8469bec",
+            "name": "fenneclab",
+            "slug": "fenneclab",
+            "password": "$2a$10$ffFylTzJpPhZt2avup0NwuEg6z3Y319BcDDmKeh/KrLGwLLHMybtS",
+            "email": "web.service@fenneclab.com",
+            "image": "/content/images/2014/10/fennec.png",
+            "cover": "/content/images/2014/10/b.jpg",
+            "bio": "Fenneclab公式アナウンスです。",
+            "website": "",
+            "location": "Tokyo",
+            "accessibility": null,
+            "status": "active",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "last_login": "2016-05-28T15:35:57.000Z",
+            "created_at": "2014-10-03T17:50:38.000Z",
+            "created_by": 1,
+            "updated_at": "2016-05-28T15:35:57.000Z",
+            "updated_by": 1,
+            "tour": null,
+            "visibility": "public",
+            "facebook": null,
+            "twitter": null
+          },
+          {
+            "id": 2,
+            "uuid": "834bb599-ed0f-4d21-b3b5-728d0e113144",
+            "name": "satoshun00",
+            "slug": "shun-sato",
+            "password": "$2a$10$R/4pvr6GTCRmYxPDeKYpuOi3eos586r4NnZOHf/zHDZAWo8K5xm3i",
+            "email": "shun.sato@fenneclab.com",
+            "image": "/content/images/2014/10/k5sQHFiV.jpeg",
+            "cover": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "accessibility": null,
+            "status": "active",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "last_login": "2015-12-26T06:00:29.000Z",
+            "created_at": "2014-10-03T18:07:38.000Z",
+            "created_by": 1,
+            "updated_at": "2015-12-26T06:00:29.000Z",
+            "updated_by": 2,
+            "tour": null,
+            "visibility": "public",
+            "facebook": null,
+            "twitter": null
+          },
+          {
+            "id": 3,
+            "uuid": "7fb5b9c9-48d2-47a0-8543-4b4651ea0091",
+            "name": "NARUSE",
+            "slug": "naruse",
+            "password": "$2a$10$oIUx7sPjWZVYoYt92riuxOQEBSOERtRj3F8C5epCxRBX01j/cvxka",
+            "email": "naruse.niimura@fenneclab.com",
+            "image": "/content/images/2014/10/naruse-icon2.jpg",
+            "cover": "",
+            "bio": "徒然なるままに。",
+            "website": "",
+            "location": "Tokyo",
+            "accessibility": null,
+            "status": "active",
+            "language": "en_US",
+            "meta_title": null,
+            "meta_description": null,
+            "last_login": "2015-07-19T15:28:28.000Z",
+            "created_at": "2014-10-03T18:14:53.000Z",
+            "created_by": 1,
+            "updated_at": "2015-07-19T15:28:28.000Z",
+            "updated_by": 3,
+            "tour": null,
+            "visibility": "public",
+            "facebook": null,
+            "twitter": null
+          }
+        ]
+      }
+    }
+  ]
+}
