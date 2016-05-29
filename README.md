@@ -24,7 +24,7 @@ npm run new -- 'blog/new-post-name.md'
 
 ## Create site
 
-:warining: Buy site's domanin before run.
+:warning: Buy site's domanin before run.
 
 ```
 export SITE_DOMAIN="fenneclab.com"
