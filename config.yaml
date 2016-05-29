@@ -14,7 +14,7 @@ params:
   categoriesByCount: true
   includeReadingTime: true
   loadFavicon: true
-  faviconVersion: '-1.0'
+  faviconVersion: '1'
   customCSS:
     - default
     - /css/custom.css

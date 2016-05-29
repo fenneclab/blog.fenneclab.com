@@ -1,0 +1,38 @@
+{
+  "masterPicture": "favicon/master-260x260.png",
+  "iconsPath": "/",
+  "design": {
+    "ios": {
+      "pictureAspect": "backgroundAndMargin",
+      "backgroundColor": "#ffffff",
+      "margin": "0%",
+      "appName": "FennecLab Blog"
+    },
+    "desktopBrowser": {},
+    "windows": {
+      "pictureAspect": "whiteSilhouette",
+      "backgroundColor": "#f16d22",
+      "onConflict": "override",
+      "appName": "FennecLab Blog"
+    },
+    "androidChrome": {
+      "pictureAspect": "noChange",
+      "themeColor": "#f16d22",
+      "manifest": {
+        "name": "FennecLab Blog",
+        "display": "browser",
+        "orientation": "notSet",
+        "onConflict": "override",
+        "declared": true
+      }
+    },
+    "safariPinnedTab": {
+      "pictureAspect": "silhouette",
+      "themeColor": "#f16d22"
+    }
+  },
+  "settings": {
+    "scalingAlgorithm": "Mitchell",
+    "errorOnImageTooSmall": false
+  }
+}

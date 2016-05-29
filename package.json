@@ -1,11 +1,26 @@
 {
   "name": "blog.fenneclab.com",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "description": "blog.fenneclab.com template powered by Hugo",
+  "main": "blog.fenneclab.com",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "favicon:clean": "rm -rf .favicon",
+    "favicon:generate": "real-favicon generate ./favicon/description.json ./.favicon/data.json ./.favicon",
+    "favicon": "npm-run-all -s favicon:clean favicon:generate",
+    "serve": "hugo server --baseURL=\"http://localhost:1313\" --buildDrafts",
+    "build": "hugo --destination=./dist",
+    "new": "hugo new"
   },
+  "keywords": [
+    "hugo",
+    "aws"
+  ],
+  "repository": "fenneclab/blog.fenneclab.com",
   "author": "satoshun00",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cli-real-favicon": "0.0.6",
+    "npm-run-all": "2.1.1"
+  }
 }

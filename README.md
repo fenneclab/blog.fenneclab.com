@@ -1,1 +1,53 @@
 # blog.fenneclab.com
+
+## Get started
+
+```
+# clone this repository
+git clone https://github.com/fenneclab/blog.fenneclab.com.git blog.fenneclab.com
+cd $_
+
+# install deps
+brew bundle
+npm i
+
+# run hugo server
+npm run serve
+```
+
+## Add blog post
+
+```
+npm run new -- 'blog/new-post-name.md'
+# edit content/blog/new-post-name.md
+```
+
+## Create site
+
+:warining: Buy site's domanin before run.
+
+```
+export SITE_DOMAIN="fenneclab.com"
+export SITE_HOSTNAME="blog.fenneclab.com"
+aws cloudformation validate-template --template-body "$(cat ./formation.json)"
+aws cloudformation create-stack \
+  --stack-name ${SITE_HOSTNAME//./-} \
+  --parameters \
+  ParameterKey=DomainRoot,ParameterValue=${SITE_DOMAIN} \
+  ParameterKey=HostName,ParameterValue=${SITE_HOSTNAME} \
+  --template-body "$(cat ./formation.json)" \
+  --tags Key=site,Value=${SITE_HOSTNAME}
+```
+
+## Generate favicons
+
+```
+npm run favicon
+# copy and paste if needed
+# see: themes/hugo-future-imperfect/layouts/partials/favicon.html
+# also: https://github.com/audreyr/favicon-cheat-sheet
+export favVer="1"
+cp ./.favicon/apple-touch-icon-precomposed.png ./static/favicon/apple-touch-icon-precomposed-${favVer}.png
+cp ./.favicon/mstile-144x144.png ./static/favicon/mstile-${favVer}.png
+cp ./.favicon/favicon-32x32.png ./static/favicon/favicon-${favVer}.png
+```

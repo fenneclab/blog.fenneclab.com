@@ -6,7 +6,7 @@ type: post
 description: ''
 featured: ''
 featuredalt: ''
-featuredpath: date
+featuredpath: ''
 categories:
   - Development
 author: satoshun00
