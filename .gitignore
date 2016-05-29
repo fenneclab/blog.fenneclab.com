@@ -35,5 +35,8 @@ node_modules
 # favicon generation
 .favicon
 
+# hugo installation(ci)
+.hugo
+
 # builds
 dist
