@@ -24,7 +24,7 @@ npm run new -- 'blog/new-post-name.md'
 # edit content/blog/new-post-name.md
 ```
 
-## Create site
+## Create site environment
 
 :warning: Buy site's domanin before run.
 
@@ -38,7 +38,22 @@ aws cloudformation create-stack \
   ParameterKey=DomainRoot,ParameterValue=${SITE_DOMAIN} \
   ParameterKey=HostName,ParameterValue=${SITE_HOSTNAME} \
   --template-body "$(cat ./formation.json)" \
+  --capabilities CAPABILITY_IAM \
   --tags Key=site,Value=${SITE_HOSTNAME}
+```
+
+## Update site environment
+
+```
+export SITE_HOSTNAME="blog.fenneclab.com"
+aws cloudformation validate-template --template-body "$(cat ./formation.json)"
+aws cloudformation update-stack \
+  --stack-name ${SITE_HOSTNAME//./-} \
+  --parameters \
+  ParameterKey=DomainRoot,UsePreviousValue=true \
+  ParameterKey=HostName,UsePreviousValue=true \
+  --capabilities CAPABILITY_IAM \
+  --template-body "$(cat ./formation.json)"
 ```
 
 ## Generate favicons

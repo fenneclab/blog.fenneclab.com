@@ -12,6 +12,14 @@
       "Description": "Domain name for website"
     }
   },
+  "Outputs": {
+    "DeployUserAccessKey": {
+      "Value": {"Ref": "DeployUserAccessKey"}
+    },
+    "DeployUserSecretKey": {
+      "Value": {"Fn::GetAtt": ["DeployUserAccessKey", "SecretAccessKey"]}
+    }
+  },
   "Resources": {
     "SiteDNS": {
       "Type": "AWS::Route53::RecordSetGroup",
@@ -39,6 +47,34 @@
           "IndexDocument": "index.html",
           "ErrorDocument": "404.html"
         }
+      }
+    },
+    "DeployUser": {
+      "Type": "AWS::IAM::User",
+      "Properties": {
+        "Path": "/",
+        "Policies": [{
+          "PolicyName": "AllowUploadToPublicBucket",
+          "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [{
+              "Effect": "Allow",
+              "Action": "s3:*",
+              "Resource": [
+                {"Fn::Join": ["", ["arn:aws:s3:::", {"Ref": "PublicBucket"}, "/*"]]},
+                {"Fn::Join": ["", ["arn:aws:s3:::", {"Ref": "PublicBucket"}]]}
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "DeployUserAccessKey": {
+      "Type": "AWS::IAM::AccessKey",
+      "Properties": {
+        "Serial": 1,
+        "Status": "Active",
+        "UserName": {"Ref": "DeployUser"}
       }
     }
   },
