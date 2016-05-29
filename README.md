@@ -1,5 +1,7 @@
 # blog.fenneclab.com
 
+[![Build Status](https://travis-ci.org/fenneclab/blog.fenneclab.com.svg?branch=master)](https://travis-ci.org/fenneclab/blog.fenneclab.com)
+
 ## Get started
 
 ```
