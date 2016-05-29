@@ -9,8 +9,13 @@
     "favicon:generate": "real-favicon generate ./favicon/description.json ./.favicon/data.json ./.favicon",
     "favicon": "npm-run-all -s favicon:clean favicon:generate",
     "serve": "hugo server --baseURL=\"http://localhost:1313\" --buildDrafts",
-    "build": "hugo --destination=./dist",
-    "new": "hugo new"
+    "new": "hugo new",
+    "build:clean": "rm -rf dist",
+    "build:hugo": "hugo --destination=./dist",
+    "build": "npm-run-all -s build:clean build:hugo",
+    "deploy:upload": "aws s3 sync --delete ./dist s3://blog.fenneclab.com",
+    "deploy:dryrun": "npm-run-all -s build \"deploy:upload -- --dryrun\"",
+    "deploy": "npm-run-all -s build deploy:upload"
   },
   "keywords": [
     "hugo",
