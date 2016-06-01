@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "no-start-duplicated-conjunction": true,
+    "sjsj": true,
+    "no-dead-link": true,
+    "max-kanji-continuous-len": true,
+    "spellcheck-tech-word": true,
+    "web-plus-db": true,
+    "no-double-negative-ja": true,
+    "no-dropping-the-ra": true
+  },
+  "filters": {
+    "comments": true
+  }
+}
