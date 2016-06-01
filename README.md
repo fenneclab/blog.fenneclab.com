@@ -10,7 +10,6 @@ git clone https://github.com/fenneclab/blog.fenneclab.com.git blog.fenneclab.com
 cd $_
 
 # install dependencies
-brew bundle
 npm i
 
 # run hugo server
