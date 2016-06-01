@@ -37,15 +37,22 @@ author: naruse
 ![](/img/2014/11/niice-a-search-engine-with-taste-4.png)
 
 
-うん。確かにグッドテイスト感ある。<br>
+うん。確かにグッドテイスト感ある。
+
+<!-- textlint-disable max-kanji-continuous-len -->
+
 ちなみにGif画像も検索結果画面でさくさく動くので見てるだけでも飽きない。
 
-<br>
+<!-- textlint-enable max-kanji-continuous-len -->
 
 ## 自分だけの画像ボードが作れる新機能「Image Stream」
 そして、たまたま見たら気に入った画像で自分だけのイメージストリーム(Image Stream)を作れる機能が搭載されていた。機能は公式動画が分かりやすい。
 
+<!-- textlint-disable spellcheck-tech-word -->
+
 <iframe src="//player.vimeo.com/video/97440008?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<!-- textlint-enable spellcheck-tech-word -->
 
 Pinterestのボードに近いイメージだけど、基本的にクローズドなので自分専用だし、無駄なシェアボタンとかが無いのも好感もてる。
 

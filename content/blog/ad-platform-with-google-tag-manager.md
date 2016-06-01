@@ -29,7 +29,7 @@ GoogleTagManagerで画面サイズの種類(デスクトップ、スマートフ
 
 ![Variable](/img/2015/12/google-tag-managerwoshi-tutehua-mian-saizuniying-zitadong-de-guang-gao-pei-xin-woshe-ding-suru-1.png)
 
-GoogleTagManagerにおける「[データレイヤー変数](https://support.google.com/tagmanager/answer/6106899?hl=ja&ref_topic=3441647)」は、クライアントのjavascriptとGoogleTagManagerが`dataLayer`変数を通じてやり取り出来るjavascriptオブジェクトのことです。
+GoogleTagManagerにおける「[データレイヤー変数](https://support.google.com/tagmanager/answer/6106899?hl=ja&ref_topic=3441647)」は、クライアントのJavaScriptとGoogleTagManagerが`dataLayer`変数を通じてやり取り出来るJavaScriptオブジェクトのことです。
 
 例では`dataLayer.push({breakpoint: 'desktop'})`のようにクライアントから送信された変数の中身を、GoogleTagManagerにて参照し、タグ配信条件を分岐させるのに利用します。
 
@@ -87,7 +87,7 @@ GoogleTagManagerでトリガーを条件に配信されるタグを作成しま�
 
 GoogleTagManagerにおける「[カスタムHTML](https://support.google.com/tagmanager/answer/6107167?hl=ja&ref_topic=3281056)」は任意のHTMLタグを配信出来ます。
 
-例では`<script>`タグを作成し、広告枠の要素(#koukoku-waku-1がふられた要素)に広告エレメントを挿入しています。(実践では広告スクリプトのロードを行うことになるでしょう)
+例では`<script>`タグを作成し、広告枠の要素(#koukoku-waku-1がふられた要素)に広告要素を挿入しています。(実践では広告スクリプトのロードを行うことになるでしょう)
 
 また、タグには他にGoogleAnalyticsへのイベント送信などのタグが用意されています。(詳しくは[タグ](https://support.google.com/tagmanager/answer/3281060?hl=ja&ref_topic=3281056)リファレンスを参照して下さい)
 
@@ -97,7 +97,7 @@ GoogleTagManagerにおける「[カスタムHTML](https://support.google.com/tag
 
 # ブレークポイントイベントの設定
 
-作成したGoogleTagManagerタグの配信をjavascriptのソースからトリガーします。
+作成したGoogleTagManagerタグの配信をJavaScriptのソースからトリガーします。
 
 画面サイズの変更に応じて動的にイベントを送信するため、それに適したモジュールを使用します。
 
@@ -105,7 +105,7 @@ GoogleTagManagerにおける「[カスタムHTML](https://support.google.com/tag
 
 以下、ほぼ[モジュールのドキュメント](https://github.com/14islands/js-breakpoints#javascript-breakpoints)通りです。
 
-※今回、sassやjavascriptのimport部分は本質でないので、説明を端折っています。環境に応じて適宜読み変えて下さい。
+※今回、sassやJavaScriptのimport部分は本質でないので、説明を端折っています。環境に応じて適宜読み変えて下さい。
 
 ## \#-1. [js-breakpoints](https://www.npmjs.com/package/js-breakpoints)モジュールをインストール
 ```sh
@@ -155,7 +155,7 @@ body {
 
 先のCSSで設定したブレークポイントの名称に対応する、nameプロパティのブレークポイントイベントが発火します。
 
-※`dataLayer`にデータをpushするため、先で設定したGoogleTagManagerスニペットよりも後で下記javascriptをロードします
+※`dataLayer`にデータをpushするため、先で設定したGoogleTagManagerスニペットよりも後で下記JavaScriptをロードします
 
 ```js
 require('js-breakpoints');

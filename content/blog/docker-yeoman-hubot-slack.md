@@ -28,8 +28,10 @@ https://github.com/fenneclab/fennecbot
 
 **pros**
 
+<!-- textlint-disable spellcheck-tech-word -->
 - コピペで作れます
 - Dockerでいれるので環境が汚れません
+<!-- textlint-enable spellcheck-tech-word -->
 
 **cons**
 
@@ -57,7 +59,7 @@ https://github.com/fenneclab/fennecbot
 ```
 
 ##### Yeoman
-[Yeoman](http://yeoman.io/)はnode.jsアプリケーションの雛形ジェネレータです。
+[Yeoman](http://yeoman.io/)はNode.jsアプリケーションの雛形ジェネレータです。
 
 雛形を作るだけなのでローカルのマシンに入れるだけでよいでしょう。
 
@@ -132,7 +134,7 @@ Hubot> hubot ping
 Hubot> PONG
 ```
 
-作成した`test-hubot`をgithubに`push`しておきましょう。
+作成した`test-hubot`をGitHubに`push`しておきましょう。
 
 ### Hubot - Slack連携
 

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "blog.fenneclab.com template powered by Hugo",
   "scripts": {
-    "test": "npm-run-all -s build:clean build:hugo",
+    "test": "npm-run-all -s lint:text build:clean build:hugo",
+    "lint:text": "textlint --experimental content",
     "favicon:clean": "rm -rf .favicon",
     "favicon:generate": "real-favicon generate ./favicon/description.json ./.favicon/data.json ./.favicon",
     "favicon": "npm-run-all -s favicon:clean favicon:generate",
@@ -28,6 +29,16 @@
     "cli-real-favicon": "0.0.6",
     "hugo-bin": "0.1.1",
     "imagemin-cli": "2.1.0",
-    "npm-run-all": "2.1.1"
+    "npm-run-all": "2.1.1",
+    "textlint": "6.9.0",
+    "textlint-filter-rule-comments": "1.2.1",
+    "textlint-rule-max-kanji-continuous-len": "1.0.1",
+    "textlint-rule-no-dead-link": "0.2.0",
+    "textlint-rule-no-double-negative-ja": "1.0.4",
+    "textlint-rule-no-dropping-the-ra": "1.0.2",
+    "textlint-rule-no-start-duplicated-conjunction": "1.0.7",
+    "textlint-rule-sjsj": "1.0.5",
+    "textlint-rule-spellcheck-tech-word": "5.0.0",
+    "textlint-rule-web-plus-db": "1.1.5"
   }
 }
