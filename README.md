@@ -1,27 +1,10 @@
-# blog.fenneclab.com
+# blog.fenneclab.com [![Build Status](https://travis-ci.org/fenneclab/blog.fenneclab.com.svg?branch=master)](https://travis-ci.org/fenneclab/blog.fenneclab.com)
 
-[![Build Status](https://travis-ci.org/fenneclab/blog.fenneclab.com.svg?branch=master)](https://travis-ci.org/fenneclab/blog.fenneclab.com)
+> [blog.fenneclab.com](http://blog.fenneclab.com) template powered by Hugo
 
-## Get started
+## Writer's workflow
 
-```
-# clone this repository
-git clone https://github.com/fenneclab/blog.fenneclab.com.git blog.fenneclab.com
-cd $_
-
-# install dependencies
-npm i
-
-# run hugo server
-npm run serve
-```
-
-## Add blog post
-
-```
-npm run new -- 'blog/new-post-name.md'
-# edit content/blog/new-post-name.md
-```
+see: [WORKFLOW.md](WORKFLOW.md)
 
 ## Create site environment
 

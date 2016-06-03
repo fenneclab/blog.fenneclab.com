@@ -7,7 +7,7 @@ description: |-
   FacebookGraphAPIを使うとFacebookユーザーフィードへコンテンツの投稿を行うことが出来ます。
   Facebookフィードへの主な投稿パターンを整理しました。
 featured: posting-facebook-feed-patterns-featured.jpg
-featuredalt: ''
+featuredalt: FacebookGraphAPIを使った投稿パターンと見え方まとめ
 featuredpath: date
 categories:
   - Development
