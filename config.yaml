@@ -24,7 +24,7 @@ params:
     paragraph: Let's Get Freaky With Technology
     about: Webプロダクトチーム『FennecLab』のブログです。使った技術やオススメのサービスの紹介、プロダクト公開情報など、日々のアウトプットをアーカイブしてきます。
     pic:
-      src: /img/main/logo.png
+      src: /img/main/logo.svg
       circle: false
       imperfect: false
       width: 80px
