@@ -63,3 +63,7 @@ npm run deploy:dryrun
 
 npm run deploy
 ```
+
+## License
+
+Apache 2.0 @ [fenneclab](http://blog.fenneclab.com/)
