@@ -42,7 +42,7 @@ https://github.com/fenneclab/fennecbot
 
 ### Installation
 ##### Docker
-[Docker Documentation](https://docs.docker.com/installation/#installation)を参考にインストールします。
+[Docker Documentation](https://docs.docker.com/engine/installation/)を参考にインストールします。
 
 **Mac OS X(ローカル)**
 
@@ -182,10 +182,10 @@ Slackにて指定したbotに呼びかけてみましょう。
 ### +α(& やり残したこと)
 
 -  `docker run`したHubotへの変更の反映、再起動は？
-  - 変更を`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/reference/commandline/cli/#restart)
+  - 変更を`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/engine/reference/commandline/restart/)
 - 運用するリモートサーバーがない
   - [HubotはHerokuへのデプロイも推奨しているようです](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md)
-- 「`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/reference/commandline/cli/#restart)が面倒くさい」
+- 「`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/engine/reference/commandline/restart/)が面倒くさい」
   - ローカルで作成したHubotのDockerイメージを[Docker Hub](https://registry.hub.docker.com/)に`push`し、運用するためのリモートサーバーにて`docker pull`するのもイケると思います
 - 「会社のSlackだから勝手にIntegrationを追加できない」
   - SlackはIRCサーバーとしても使えます(これも[Slackの設定次第ですが](https://slack.zendesk.com/hc/en-us/articles/201727913-Connecting-to-Slack-over-IRC-and-XMPP))
