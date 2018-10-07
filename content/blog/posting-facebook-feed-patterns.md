@@ -98,7 +98,7 @@ Open Graphにおいて開発者は_オブジェクト_・_アクション_・_�
 
 ![Custom Open Graph パターン-例](/img/2015/03/posting-facebook-feed-patterns-8.png)
 
-では、実際に[やきそば弁当](http://www.maruchan.co.jp/products/search/42.html)を食べるストーリーを作成してみます。
+では、実際に[やきそば弁当](https://www.maruchan.co.jp/products/search/42.html)を食べるストーリーを作成してみます。
 
 ※あらかじめ[デベロッパーページ](https://developers.facebook.com/apps/)よりアプリケーションの作成を行って下さい
 
@@ -251,7 +251,7 @@ Open GraphオブジェクトはOGP準拠のHTMLコンテンツである必要が
 
 今回のようにAPIコールでユーザーのタイムラインへ投稿を行う場合、"publish_actions"のパーミッションが必要です。
 
-アプリが"publish_actions"のパーミッションをユーザーに要求するにはFacebookの審査が必要です。(参考: http://snowadays.jp/2014/05/2762)
+アプリが"publish_actions"のパーミッションをユーザーに要求するにはFacebookの審査が必要です。(参考: https://snowadays.jp/2014/05/2762)
 
 ※ただし、Share Dialogを使えば"publish_actions"のパーミッションなしで、アクションの投稿が可能です
 

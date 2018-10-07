@@ -1,4 +1,4 @@
-baseurl: 'http://blog.fenneclab.com/'
+baseurl: 'https://blog.fenneclab.com/'
 languageCode: ja-jp
 theme: hugo-future-imperfect
 preserveTaxonomyNames: true

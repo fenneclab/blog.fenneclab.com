@@ -1,41 +1,29 @@
 # blog.fenneclab.com [![Build Status](https://travis-ci.org/fenneclab/blog.fenneclab.com.svg?branch=master)](https://travis-ci.org/fenneclab/blog.fenneclab.com)
 
-> [blog.fenneclab.com](http://blog.fenneclab.com) template powered by Hugo
+> [blog.fenneclab.com](https://blog.fenneclab.com) template powered by Hugo
 
 ## Writer's workflow
 
 see: [WORKFLOW.md](WORKFLOW.md)
 
-## Create site environment
+## Create/Update site environment
 
 :warning: Buy site's domanin before run.
 
 ```
 export SITE_DOMAIN="fenneclab.com"
 export SITE_HOSTNAME="blog.fenneclab.com"
+export SITE_ACM_ARN="***"
 aws cloudformation validate-template --template-body "$(cat ./formation.json)"
-aws cloudformation create-stack \
+aws cloudformation deploy \
   --stack-name ${SITE_HOSTNAME//./-} \
-  --parameters \
-  ParameterKey=DomainRoot,ParameterValue=${SITE_DOMAIN} \
-  ParameterKey=HostName,ParameterValue=${SITE_HOSTNAME} \
-  --template-body "$(cat ./formation.json)" \
-  --capabilities CAPABILITY_IAM \
-  --tags Key=site,Value=${SITE_HOSTNAME}
-```
-
-## Update site environment
-
-```
-export SITE_HOSTNAME="blog.fenneclab.com"
-aws cloudformation validate-template --template-body "$(cat ./formation.json)"
-aws cloudformation update-stack \
-  --stack-name ${SITE_HOSTNAME//./-} \
-  --parameters \
-  ParameterKey=DomainRoot,UsePreviousValue=true \
-  ParameterKey=HostName,UsePreviousValue=true \
-  --capabilities CAPABILITY_IAM \
-  --template-body "$(cat ./formation.json)"
+  --no-execute-changeset \
+  --parameter-overrides \
+  DomainRoot=${SITE_DOMAIN} \
+  HostName=${SITE_HOSTNAME} \
+  AcmArn=${SITE_ACM_ARN} \
+  --template-file ./formation.json \
+  --capabilities CAPABILITY_IAM
 ```
 
 ## Generate favicons
@@ -66,4 +54,4 @@ npm run deploy
 
 ## License
 
-Apache 2.0 @ [fenneclab](http://blog.fenneclab.com/)
+Apache 2.0 @ [fenneclab](https://blog.fenneclab.com/)

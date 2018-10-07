@@ -28,10 +28,8 @@ https://github.com/fenneclab/fennecbot
 
 **pros**
 
-<!-- textlint-disable spellcheck-tech-word -->
-- コピペで作れます
+- コピー&ペーストで作れます
 - Dockerでいれるので環境が汚れません
-<!-- textlint-enable spellcheck-tech-word -->
 
 **cons**
 
@@ -140,7 +138,7 @@ Hubot> PONG
 
 ##### Slackの設定
 
-[Slack](https://slack.com)のIntegration設定にて、`Hubot Integration`を追加し、項目を埋めます。
+[Slack](https://slack.com/)のIntegration設定にて、`Hubot Integration`を追加し、項目を埋めます。
 
 - `Hubot URL`: リモートのURL(今回だとさくらVPSのIP) + Hubotの待ち受けポート
   - ex) `10.0.0.3:9999`
@@ -184,18 +182,18 @@ Slackにて指定したbotに呼びかけてみましょう。
 -  `docker run`したHubotへの変更の反映、再起動は？
   - 変更を`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/engine/reference/commandline/restart/)
 - 運用するリモートサーバーがない
-  - [HubotはHerokuへのデプロイも推奨しているようです](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md)
+  - [HubotはHerokuへのデプロイも推奨しているようです](https://github.com/hubotio/hubot/blob/master/docs/deploying/heroku.md)
 - 「`git pull` -> [`docker restart CONTAINERID`](https://docs.docker.com/engine/reference/commandline/restart/)が面倒くさい」
-  - ローカルで作成したHubotのDockerイメージを[Docker Hub](https://registry.hub.docker.com/)に`push`し、運用するためのリモートサーバーにて`docker pull`するのもイケると思います
+  - ローカルで作成したHubotのDockerイメージを[Docker Hub](https://hub.docker.com/)に`push`し、運用するためのリモートサーバーにて`docker pull`するのもイケると思います
 - 「会社のSlackだから勝手にIntegrationを追加できない」
-  - SlackはIRCサーバーとしても使えます(これも[Slackの設定次第ですが](https://slack.zendesk.com/hc/en-us/articles/201727913-Connecting-to-Slack-over-IRC-and-XMPP))
+  - ~~SlackはIRCサーバーとしても使えます~~
   - Hubotの[IRCAdapter](https://github.com/nandub/hubot-irc)を利用するとよいでしょう
 - Hubotの立ち位置
   - 個人が趣味プロではじめたHubotに、いつのまにか業務が依存しだしたら、Jenkinsとかチームが運用できる手段を真剣に考えた方がいいと思います
-  - [Githubみたいな使い方](http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)を目指すなら運用チームがいないときついと思います
+  - [Githubみたいな使い方](https://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)を目指すなら運用チームがいないときついと思います
   - 私個人としては、Hubotはちょっとした業務補助ツール兼、おもちゃくらいです
 
 ### 参考
-- [hubot+slackをIRCで動かす](http://qiita.com/mikesorae/items/b229a8cebe1880ca52b9)
-- [slackにHubotを導入(Heroku経由)](http://qiita.com/Katsumata_RYO/items/dc4543aa5827d4c3211c)
-- [GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013](http://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)
+- [hubot+slackをIRCで動かす](https://qiita.com/mikesorae/items/b229a8cebe1880ca52b9)
+- [slackにHubotを導入(Heroku経由)](https://qiita.com/acairojuni/items/dc4543aa5827d4c3211c)
+- [GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013](https://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)
