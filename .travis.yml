@@ -1,7 +1,11 @@
 language: node_js
 node_js:
-  - '6'
-  - '5'
+  - '10'
+# see: https://discourse.gohugo.io/t/solved-hugo-v44-extended-and-relocation-errors-on-travis/13029/4
+before_install:
+  # This workaround is required to avoid libstdc++ errors while running "extended" hugo with SASS support.
+  - wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
+  - sudo dpkg --force-all -i libstdc++6
 deploy:
   skip_cleanup: true
   provider: s3
@@ -9,9 +13,8 @@ deploy:
   secret_access_key:
     secure: xprAXjb/LjvISi92UhfQGpEjMB5ROdqcT6dqj3QydwiR/fYpRWWVeoBsYsLp2Sc/QGIQeE4uk0Io0U5x8MdaSQGz2S67OfSHeKkax8lIdU1xwSEIqcuZDg0w6NRYXv0N3r76YlRd4F3uC8Daa4BWvnt3CPfjtJBtrthRtPabPnLM2AdNA4NmhkHGH+yIYbLcMCHvt6CNL+WzjjyZTDn0hY8E+mBik9SpQhZ0F8uVc3F05aPrKosiw5SFJvnd8kneGWiNLteEUNQ8KRduoNl9zJ/0luREQCllyUKlHH3J/VW9QVuX5qbJo8J/sD12QBhbCYspKmVIj4+pG0qkTuSplqBbAOvOzIhHsJS8MXplt25OTrQcAf9PFR7cfylvn39/uQ2VE3YHK88CQaU3D34zGF9ylcxspFxdVq5/iLUQCMZD+Wx8uGieWlheA6avfWlqDnGOzu4zdXf6sxatNCLQ69Yhos5bH0mu8sVCVxrFC9737Xwa0fkFLaJjdggmIaMeEnV56S1HQhaMNdthp59/FWqnbs0lLGmVN8o94uCgkpgVZpesd7+81GcqVGQ+bJuEh9glPMK38iSJPtEUkoJn7SLZNslN1Vmvn4fsUFxUmXhXbMfInWrnzz0tRE3rNFs3iUN/5T0WKFrZOUR8OvTAWkxy/fABDHCYOgaIpARu7uQ=
   bucket: blog.fenneclab.com
-  acl: public_read
   local_dir: dist
   detect_encoding: true
   cache_control: max-age=604800
   on:
-    node: '6'
+    node: '10'

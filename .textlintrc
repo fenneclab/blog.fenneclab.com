@@ -2,7 +2,12 @@
   "rules": {
     "no-start-duplicated-conjunction": true,
     "sjsj": true,
-    "no-dead-link": true,
+    "no-dead-link": {
+      "ignore": [
+        "https://slack.com/",
+        "https://developers.facebook.com/**/*"
+      ]
+    },
     "max-kanji-continuous-len": true,
     "spellcheck-tech-word": true,
     "web-plus-db": true,
