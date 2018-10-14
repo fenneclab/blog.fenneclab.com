@@ -4,7 +4,7 @@ node_js:
 addons:
   apt:
     packages:
-      - libstdc++-4.9-dev
+      - libstdc++-4.8-dev
 deploy:
   skip_cleanup: true
   provider: s3
