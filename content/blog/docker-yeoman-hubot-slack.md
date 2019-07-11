@@ -57,7 +57,7 @@ https://github.com/fenneclab/fennecbot
 ```
 
 ##### Yeoman
-[Yeoman](http://yeoman.io/)はNode.jsアプリケーションの雛形ジェネレータです。
+[Yeoman](https://yeoman.io/)はNode.jsアプリケーションの雛形ジェネレータです。
 
 雛形を作るだけなのでローカルのマシンに入れるだけでよいでしょう。
 
@@ -195,5 +195,5 @@ Slackにて指定したbotに呼びかけてみましょう。
 
 ### 参考
 - [hubot+slackをIRCで動かす](https://qiita.com/mikesorae/items/b229a8cebe1880ca52b9)
-- [slackにHubotを導入(Heroku経由)](https://qiita.com/acairojuni/items/dc4543aa5827d4c3211c)
+- [slackにHubotを導入(Heroku経由)](https://qiita.com/katsumata_ryo/items/dc4543aa5827d4c3211c)
 - [GitHub社内のDevOpsを支えるツール「Boxen」と「Hubot」（後編）～DevOps Day Tokyo 2013](https://www.publickey1.jp/blog/13/githubboxenhubotdevops_day_tokyo_2013.html)

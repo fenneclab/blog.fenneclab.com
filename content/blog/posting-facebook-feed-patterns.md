@@ -98,7 +98,7 @@ Open Graphにおいて開発者は_オブジェクト_・_アクション_・_�
 
 ![Custom Open Graph パターン-例](/img/2015/03/posting-facebook-feed-patterns-8.png)
 
-では、実際に[やきそば弁当](https://www.maruchan.co.jp/products/search/42.html)を食べるストーリーを作成してみます。
+では、実際に[やきそば弁当](https://www.maruchan.co.jp/products/)を食べるストーリーを作成してみます。
 
 ※あらかじめ[デベロッパーページ](https://developers.facebook.com/apps/)よりアプリケーションの作成を行って下さい
 
